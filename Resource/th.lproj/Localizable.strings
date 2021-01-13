@@ -1,0 +1,310 @@
+/*
+ qudelix-5k iOS/Android Application
+ Localizable.strings
+
+ Copyright © 2021 Qudelix, Inc. All rights reserved.
+ 
+ */
+
+//****************************************
+//********** DEVICE DEVICE
+//****************************************
+"kSTR_HELP_WarrantyCampaign" =
+"Write a review and get your warranty extended!
+Would you mind taking a few minutes to write a review for Qudelix-5K, please? Your comments and reviews help us to improve 5K better. Please share your thought on 5K with others at Amazon or any Audio Communities. We provide additional warranty extension (up to 8 months) on any published reviews at Amazon or Audio Communities.
+";
+
+//****************************************
+//********** DEVICE SEARCH
+//****************************************
+"kSTR_HELP_Connection" =
+"5K allows the APP connection with one device at a time. Remove the existing APP connection before making a new connection with another device.
+
+The APP link is different from the BR/EDR link for A2DP. To stream audio, connect(pair) 5K to the smartphone first. (iOS--> Settings --> Bluetooth --> MY DEVICES)
+
+
+[Trouble Shooting]
+
+If you can't connect your 5K with the app, please follow the steps below.
+
+1. Remove all devices from the system Bluetooth paired device list
+2. Pair 5K with the smartphone
+3. Uninstall / Install Qudelix mobile app
+4. Reboot the smartphone
+";
+
+//****************************************
+//********** DEVICE POWER
+//****************************************
+"kSTR_HELP_AutoPower" =
+"ON at USB DAC
+turns 5K on when connected to PC as a USB DAC.
+
+OFF at Charger
+turns 5K off when connected to a charger.
+
+ON/OFF upon Charger
+turns 5K on or off, respectively, upon the connection or disconnection to a USB charger.";
+
+"kSTR_HELP_Charger" =
+"The 5K built-in charger can be disabled manually. For iOS USB Audio through Camera Kit, you need to disable the 5K built-in charger since iOS device limits the current up to 100mA.
+
+To disable the charger, 5K should have the battery at least more than 20%. The charger will get back to enabled if the battery gets lower than 20%.";
+
+//****************************************
+//********** DEVICE MISC
+//****************************************
+"kSTR_HELP_BTN" =
+"The buttons are named as BLUE Upper (BU), BLUE Lower (BL), RED Upper (RU), and RED Lower (RL), respectively.
+
+[Default Button Behavior]
+
+BLUE Upper (BU, Notched)
+   Pairing Mode (long 3 sec)
+   Play/Pause (single click)
+   Next Track (double click)
+   Answering Incoming Call (single click)
+
+BLUE Lower (BL)
+   Power On/Off (long 3 sec)
+   Previous Track (double click)
+
+RED Upper (RU)
+   Volume Up
+
+RED Lower (RL)
+   Volume Down
+
+Optionally, the Power On/Off shortcut with the two-button press can be enabled. Single BLUE Lower (BL) press can be mapped for navigating to the previous track.";
+
+//****************************************
+//********** INPUT STATE
+//****************************************
+"kSTR_HELP_Ldac" =
+"In general, LDAC 606/660kbps or higher provides excellent sound quality comparable to the wired interface. If you don't get sufficient sound quality, please set a higher LDAC bit rate in the Android Developer Options menu.
+
+Some specific Android smartphones may not be able to provide reliable 990kbps streaming. Turning off the smartphone display, or using 5GHz WiFi might help the LDAC streamed a little better.
+
+The 660kbps is the best trade-off for reliable streaming and sound quality. In most cases, you would get good enough sound quality with LDAC 660kbps.";
+
+//****************************************
+//********** INPUT CODEC
+//****************************************
+"kSTR_HELP_CODEC" =
+"Only the Bluetooth source devices (smartphone or PC) have a privilege to choose the codec. 5K is a Bluetooth sink device and provides the supported codec list to the source device at the beginning.
+
+You can opt-out the codecs to get specific one active. The source device may remember the codec list received at the prior connection. You may need to remove Qudelix-5K from the system Bluetooth paired list and make it paired again after making any change in the codec option.";
+
+//****************************************
+//********** INPUT USB
+//****************************************
+
+//****************************************
+//********** INPUT MIC
+//****************************************
+"kSTR_HELP_Ambient" =
+"Microphone Pass-Through mode enables you to hear the ambient sound when in the music streaming and voice call. During the phone call, it helps you to listen to your voice. AMBIENT LEVEL adjust the mixup ratio between Microphone and Music. *For Voice Call, the ambient mixup ratio is fixed to 50:50.
+";
+
+//****************************************
+//********** INPUT PRIORITY
+//****************************************
+
+//****************************************
+//********** VOLUME MAIN
+//****************************************
+
+//****************************************
+//********** VOLUME OPTION
+//****************************************
+"kSTR_HELP_Volume" =
+"5K Absolute Volume Control offers 2-way associative control for optimal sound quality. It always keeps and guarantees the full precision audio stream over Bluetooth or USB. In either way, via smartphone source volume or 5K device volume, you can control the loudness level without any loss. It is highly recommended to turn on the Absolute Volume for the best sound quality.
+
+The 5K provides a higher output power than other portable audio devices. An accidental volume up may damage your ear and IEMs. For high sensitivity IEMs, we strongly recommend limiting the device volume.
+
+The Volume Protection works when two source devices have different source volume level. When you switch the audio source, 5K check the volume differences and adjust the volume the device volume if the level is too louder than the previous level.
+
+
+[IMPORTANT]
+
+Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support the Absolute Volume Control. The Android Source Volume scales down the PCM sample as the volume gets lowered. For the best sound quality with Android USB Audio, you will need to keep the source volume at maximum.
+
+And due to the above reason, the Volume Protection may not work as intended when switching audio between Android USB and Bluetooth.";
+
+
+//****************************************
+//********** DAC/AMP MODE
+//****************************************
+"kSTR_HELP_DacAmp" =
+"5K offers two DAC profiles for efficient battery time management.
+
+STANDARD provides the best trade-off for battery time and sound quality, while PERFORMANCE does the best sound quality with lesser battery time.
+
+USB connection to the device overrides the current profile and switches it to PERFORMANCE temporarily.
+
+NORMAL and HIGH mode set the ES9218p maximum output level as 1VRMS and 2VRMS, respectively. To prevent sudden amplification, the FW is designed to compensate the volume level, upon 1V and 2V HPAMP Gain change. You will experience no difference in loudness when switching the mode to 2VRMS, but you will have the max volume extended by +6dB.
+
+2VRMS, with higher HPAMP gain, produces a little higher background noise and consumes more battery time. Both 1V and 2V mode provides the same sonic performance. There's no reason to use 2VRMS for high sensitivity IEMs or Headphones.
+
+For high sensitivity IEMS, PERFORMANCE + 1VRMS provides the lowest background noise floor. For the best sound quality, you will need to set the source and device volume as we recommend.";
+
+//****************************************
+//********** DAC/AMP FILTER
+//****************************************
+
+//****************************************
+//********** EQUALIZER EQUALIZER
+//****************************************
+"kSTR_ALERT_LoadPreset_Title" =
+"Loading New Preset";
+
+"kSTR_ALERT_LoadPreset_Msg" =
+"You're about to load new EQ preset. The existing EQ setup will be lost. Are you sure to load the new preset?";
+
+//****************************************
+//********** EQUALIZER OPTION
+//****************************************
+"kSTR_HELP_EQ" =
+"5K provides 64-bit double-precision 10-band Equalizer.
+
+Every setting, including EQ, are kept and preserved in 5K's internal flash memory. 5K reloads the settings at boot-up and continues the same condition as configured before.
+
+Touching the EQ plot window will show you up the preset menu. There are ten custom presets, and long press on it would save the current EQ setting on it, respectively. Please note that the EQ custom presets are save to 5K's internal flash memory.";
+
+//****************************************
+//********** DEVICE FW UPDATE
+//****************************************
+"kSTR_ALERT_OTA_Prepare_SubTitle" =
+"Initiating the new firmware transfer.
+This may take 10~20 sec.
+
+Please keep the 5K close to the smartphone.
+
+If you're experiencing any continuous failures, please keep the app in the foreground and keep the screen ON until you get the firmware updated completely.
+
+";
+
+"kSTR_ALERT_OTA_Prepare_Msg" =
+"Initiating...";
+
+"kSTR_ALERT_OTA_Progress_SubTitle" =
+"Until 5K receives and validates the perfect FW binary, it won't update the current FW.
+
+If failed, please try it again.
+
+If you're experiencing any continuous failures, please keep the app in the foreground and keep the screen ON until you get the firmware updated completely.
+
+";
+
+"kSTR_ALERT_OTA_Rebooting_SubTitle" =
+"Rebooting the device";
+
+"kSTR_ALERT_OTA_Rebooting_Msg" =
+"Please wait for a moment.";
+
+"kSTR_ALERT_OTA_Complete_Msg" =
+"The new firmware is successfully updated!\nPlease restart the app.";
+
+
+//****************************************
+//********** WARNING/ALERT POPUP
+//****************************************
+
+// VOLUME (+) Button not available when no audio
+"kSTR_WARNING_1" = "The Volume(+) button is disabled when no audio streaming to prevent sudden and accidental volume change. Use the app slider to adjust the volume while no audio streaming.";
+
+// VOLUME PROTECTTION when switching between two source devices
+"kSTR_WARNING_2" = "VOLUME PROTECTION! The output is too louder than the previous level. Adjusting the output level back to the last one.";
+
+// APP Disconnection
+"kSTR_WARNING_3" = "The Qudelix-5K is getting connected to another smartphone. Disconnecting the current app connection.";
+
+// WARRANTY EXTENSION PROGRAM message
+"kSTR_ALERT_KeyCodeApply_Success" = "The warranty for this device extended successfully.";
+"kSTR_ALERT_KeyCodeApply_Fail" = "Failed to validate the warranty extension code. Please enter the valid code specific for your device.";
+
+"kSTR_WARNING_MIN_MAX_FMT" = "VALUE MIN:%.1f MAX:%.1f";
+
+//**********************************************************
+//********** WARRANTY EXTENSION PROGRAM (email body)
+//**********************************************************
+"kSTR_MAIL_WarrantyExtension"  =
+"We provide one year warranty for Qudelix-5K.
+
+The warranty starts at the very first connection with the companion mobile app. 5K will store and hold the start date as of the app connection after unboxing.
+
+Plus, we offer additional benefits for users to extend the warranty while encouraging product reviews.
+
+Write your review and Extend the Warranty.
+
+1.Amazon Review (up to 60 days)
+Text Review(30 days) or Photo Review(60 days)
+*A photo with your gears, earphones, headphones, amp...
+
+(Take the screenshot of your review and attach it here.)
+
+
+2.Community Review (any audiophile communities)
+Text Review(30 days) or Photo Review(60 days)
+*A high-resolution photo with your gears, earphones, headphones, amp...
+
+(Add the link for the review here.)
+
+
+3.Professional Review (30~120 days)
+Any professional review
+Should include at least more than three high-resolution photos.
+
+(Add the link for the review here.)
+
+
+
+We'll review your submission in 2~4 business days and reply to you with the extension code. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+
+*You SHOULD apply for the extension program no later than 90 days from the warranty start.
+
+*We may ask you for your original photos and publish your pictures in our gallery on the homepage.
+
+*The extension program doesn't cover the battery time/life.
+
+";
+
+//**********************************************************
+//********** WARRANTY SERVICE REQUEST (email body)
+//**********************************************************
+"kSTR_MAIL_WarrantyService"  =
+"This email is to initiate the warranty service request for any HW disorder or defect. Please go to DEVICE->TECHNICAL SUPPORT for asking any questions or helps.
+
+[IMPORTANT]
+Do Not Uninstall the APP!
+Qudelix mobile app handles every warranty process along with our warranty service system. Please keep the Qudelix mobile application until you get the issue resolved. You may not be able to get the warranty service completed unless otherwise.
+
+To accelerate the service procedure, please explain the issue in detail as much as you can.
+
+(Your issue at here)
+
+Our team will get back to you in 2~4 working days. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)";
+
+"kSTR_MAIL_WarrantyClose" =
+"Did you receive a new unit?
+To activate the new unit's warranty, we need to file the case closed.
+If everything is ok, please send us this email to close your case.
+
+It may take 2~4 business days to update the warranty system for your new device. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+";
+
+//**********************************************************
+//********** WARRANTY SERVICE STATUS (email body)
+//**********************************************************
+"kSTR_HELP_WarrantyStatus" =
+"We're processing your warranty service request now.
+Our team will get back to you in 2~4 working days. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+
+[IMPORTANT]
+Do Not Uninstall the APP!
+Qudelix mobile app handles every warranty process along with our warranty service system. Please keep the Qudelix mobile application until you get the issue resolved. You may not be able to get the warranty service completed unless otherwise.";
+
+"kSTR_HELP_WarrantyClose" =
+"The connected device is no longer available for the warranty claim. The device has been claimed as defected or damaged. We replaced the device with a new unit or refunded.";
+
+
