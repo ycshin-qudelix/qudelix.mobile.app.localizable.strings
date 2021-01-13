@@ -4,9 +4,10 @@
 This project is to help the Qudelix iOS/Android Mobile app to support localized language support.
 
 Google Play:
-https://play.google.com/store/apps/details?id=com.qudelix.qudelix
+<https://play.google.com/store/apps/details?id=com.qudelix.qudelix>     
+
 Apple App Store:
-https://apps.apple.com/kr/app/qudelix/id1515641059?l=en
+<https://apps.apple.com/kr/app/qudelix/id1515641059?l=en>  
 
 This is a public project, and Anyone can make changes and update the string files. 
 
