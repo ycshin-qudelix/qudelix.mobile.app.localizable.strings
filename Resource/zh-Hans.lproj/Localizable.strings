@@ -10,90 +10,85 @@
 //********** DEVICE DEVICE
 //****************************************
 "kSTR_HELP_WarrantyCampaign" =
-"Write a review and get your warranty extended!
-Would you mind taking a few minutes to write a review for Qudelix-5K, please? Your comments and reviews help us to improve 5K better. Please share your thought on 5K with others at Amazon or any Audio Communities. We provide additional warranty extension (up to 8 months) on any published reviews at Amazon or Audio Communities.
+"撰写心得并延长保修期！
+您介意花几分钟为Qudelix-5K撰写评论吗？您的心得和建议有助于我们更好的改善5K, 请与亚马逊或任何音频社区分享您对5K的想法。对于在亚马逊或其他音频论坛，贴吧发布的测评贴，我们都将提供额外的报修延长（最多8个月）。
 ";
 
 //****************************************
 //********** DEVICE SEARCH
 //****************************************
 "kSTR_HELP_Connection" =
-"5K allows the APP connection with one device at a time. Remove the existing APP connection before making a new connection with another device.
+"5K允许应用程序一次连接一个设备。在与其他设备建立新连接之前，请删除现有的应用程序连接。
 
-The APP link is different from the BR/EDR link for A2DP. To stream audio, connect(pair) 5K to the smartphone first. (iOS--> Settings --> Bluetooth --> MY DEVICES)
+应用程序链接与A2DP的BR/EDR链接不同。要传输音频，请先将（配对）5K连接到智能手机。（iOS-->设置-->蓝牙-->我的设备）
 
 
-[Trouble Shooting]
+[故障排除]
 
-If you can't connect your 5K with the app, please follow the steps below.
-
-1. Remove all devices from the system Bluetooth paired device list
-2. Pair 5K with the smartphone
-3. Uninstall / Install Qudelix mobile app
-4. Reboot the smartphone
+如果您无法将5K与应用程序连接，请按照以下步骤操作。
+1从系统蓝牙配对设备列表中删除所有设备
+2将5K与智能手机配对
+3卸载/安装Qudelix移动应用程序
+4重新启动智能手机
 ";
 
 //****************************************
 //********** DEVICE POWER
 //****************************************
 "kSTR_HELP_AutoPower" =
-"ON at USB DAC
-turns 5K on when connected to PC as a USB DAC.
+"在USB DAC上打开
+作为USB DAC连接到PC时打开5K。
 
-OFF at Charger
-turns 5K off when connected to a charger.
+充电器关闭
+连接到充电器时关闭5K。
 
-ON/OFF upon Charger
-turns 5K on or off, respectively, upon the connection or disconnection to a USB charger.";
+充电器打开/关闭
+连接或断开USB充电器时，分别打开或关闭5K。";
 
 "kSTR_HELP_Charger" =
-"The 5K built-in charger can be disabled manually. For iOS USB Audio through Camera Kit, you need to disable the 5K built-in charger since iOS device limits the current up to 100mA.
-
-To disable the charger, 5K should have the battery at least more than 20%. The charger will get back to enabled if the battery gets lower than 20%.";
+"5K内置充电器可手动禁用。对于iOS USB音频通过摄像头套件，您需要禁用5K内置充电器，因为iOS设备将电流限制为100mA。
+要禁用充电器，5K的电池至少应超过20%。如果电池电量低于20%，充电器将恢复启用状态。";
 
 //****************************************
 //********** DEVICE MISC
 //****************************************
 "kSTR_HELP_BTN" =
-"The buttons are named as BLUE Upper (BU), BLUE Lower (BL), RED Upper (RU), and RED Lower (RL), respectively.
+"按钮分别命名为蓝色上（BU）、蓝色下（BL）、红色上（RU）和红色下（RL）
 
-[Default Button Behavior]
+[默认按钮行为]
 
-BLUE Upper (BU, Notched)
-   Pairing Mode (long 3 sec)
-   Play/Pause (single click)
-   Next Track (double click)
-   Answering Incoming Call (single click)
+蓝色上键（BU，突起按键）
+配对模式（长按3秒）
+播放/暂停（单击一次）
+下一曲目（双击）
+接听来电（单键）
 
-BLUE Lower (BL)
-   Power On/Off (long 3 sec)
-   Previous Track (double click)
+蓝色下（BL）
+电源开/关（长3秒）
+上一曲目（双击）
 
-RED Upper (RU)
-   Volume Up
+红色上键（RU）
+增大音量
 
-RED Lower (RL)
-   Volume Down
+红色下键（RL）
+音量降低
 
-Optionally, the Power On/Off shortcut with the two-button press can be enabled. Single BLUE Lower (BL) press can be mapped for navigating to the previous track.";
+（可选）可以启用按两个按钮的电源开/关快捷方式。可以映射单个蓝色下（BL）按钮以导航到上一个曲目。";
 
 //****************************************
 //********** INPUT STATE
 //****************************************
 "kSTR_HELP_Ldac" =
-"In general, LDAC 606/660kbps or higher provides excellent sound quality comparable to the wired interface. If you don't get sufficient sound quality, please set a higher LDAC bit rate in the Android Developer Options menu.
-
-Some specific Android smartphones may not be able to provide reliable 990kbps streaming. Turning off the smartphone display, or using 5GHz WiFi might help the LDAC streamed a little better.
-
-The 660kbps is the best trade-off for reliable streaming and sound quality. In most cases, you would get good enough sound quality with LDAC 660kbps.";
+"一般来说，LDAC 606/660kbps或更高提供与有线接口相当的出色音质。如果您没有获得足够的音质，请在Android开发者选项菜单中设置更高的LDAC比特率。
+一些特定的Android智能手机可能无法提供可靠的990kbps流媒体。关闭智能手机显示屏，或者使用5GHz WiFi，可能会帮助LDAC更好地传输数据。
+660kbps是可靠流媒体和音质的最佳折衷方案。在大多数情况下，使用LDAC 660kbps可以获得足够好的音质。";
 
 //****************************************
 //********** INPUT CODEC
 //****************************************
 "kSTR_HELP_CODEC" =
-"Only the Bluetooth source devices (smartphone or PC) have a privilege to choose the codec. 5K is a Bluetooth sink device and provides the supported codec list to the source device at the beginning.
-
-You can opt-out the codecs to get specific one active. The source device may remember the codec list received at the prior connection. You may need to remove Qudelix-5K from the system Bluetooth paired list and make it paired again after making any change in the codec option.";
+"只有蓝牙源设备（智能手机或PC）有权选择编解码器。5K是一个蓝牙接收器设备，在开始时向源设备提供支持的编解码器列表。
+您可以选择退出编解码器以激活特定的编解码器。源设备可以记住在先前连接处接收的编解码器列表。您可能需要从系统蓝牙配对列表中删除Qudelix-5K，并在对编解码器选项进行任何更改后使其再次配对。";
 
 //****************************************
 //********** INPUT USB
@@ -103,8 +98,7 @@ You can opt-out the codecs to get specific one active. The source device may rem
 //********** INPUT MIC
 //****************************************
 "kSTR_HELP_Ambient" =
-"Microphone Pass-Through mode enables you to hear the ambient sound when in the music streaming and voice call. During the phone call, it helps you to listen to your voice. AMBIENT LEVEL adjust the mixup ratio between Microphone and Music. *For Voice Call, the ambient mixup ratio is fixed to 50:50.
-";
+"麦克风直通模式使您能够在音乐流和语音通话中听到周围的声音。在打电话的时候，它能帮助你倾听自己的声音。环境电平调整麦克风和音乐之间的混音比。*对于语音通话，环境混音比固定为50:50。";
 
 //****************************************
 //********** INPUT PRIORITY
@@ -118,35 +112,28 @@ You can opt-out the codecs to get specific one active. The source device may rem
 //********** VOLUME OPTION
 //****************************************
 "kSTR_HELP_Volume" =
-"5K Absolute Volume Control offers 2-way associative control for optimal sound quality. It always keeps and guarantees the full precision audio stream over Bluetooth or USB. In either way, via smartphone source volume or 5K device volume, you can control the loudness level without any loss. It is highly recommended to turn on the Absolute Volume for the best sound quality.
-
-The 5K provides a higher output power than other portable audio devices. An accidental volume up may damage your ear and IEMs. For high sensitivity IEMs, we strongly recommend limiting the device volume.
-
-The Volume Protection works when two source devices have different source volume level. When you switch the audio source, 5K check the volume differences and adjust the volume the device volume if the level is too louder than the previous level.
+"5K绝对音量控制提供了最佳音质的双向关联控制。它始终保持并保证通过蓝牙或USB的全精度音频流。无论哪种方式，通过智能手机源音量或5K设备音量，您都可以毫无损失地控制音量水平。强烈建议打开绝对音量以获得最佳音质。
+5K提供了比其他便携式音频设备更高的输出功率。意外的音量增大可能会损坏你的耳朵和耳蜗。对于高灵敏度IEM，我们强烈建议限制设备体积。
+当两个源设备具有不同的源卷级别时，卷保护工作。当您切换音源时，请检查音量差异，如果音量比前一音量大，请调整音量或设备音量。
 
 
-[IMPORTANT]
+[重要信息]
 
-Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support the Absolute Volume Control. The Android Source Volume scales down the PCM sample as the volume gets lowered. For the best sound quality with Android USB Audio, you will need to keep the source volume at maximum.
-
-And due to the above reason, the Volume Protection may not work as intended when switching audio between Android USB and Bluetooth.";
+与PC USB和iOS USB（通过摄像头套件）不同，Android USB Audio不支持绝对音量控制。随着音量的降低，Android源音量会缩小PCM样本。为了获得Android USB音频的最佳音质，您需要将源音量保持在最大值。
+由于上述原因，在Android USB和蓝牙之间切换音频时，音量保护可能无法正常工作。";
 
 
 //****************************************
 //********** DAC/AMP MODE
 //****************************************
 "kSTR_HELP_DacAmp" =
-"5K offers two DAC profiles for efficient battery time management.
+"5K提供两个DAC配置文件，用于高效的电池时间管理。
+标准为电池时间和音质提供了最佳折衷，而性能则以较少的电池时间获得最佳音质。
+到设备的USB连接会覆盖当前配置文件并将其临时切换到性能。
 
-STANDARD provides the best trade-off for battery time and sound quality, while PERFORMANCE does the best sound quality with lesser battery time.
-
-USB connection to the device overrides the current profile and switches it to PERFORMANCE temporarily.
-
-NORMAL and HIGH mode set the ES9218p maximum output level as 1VRMS and 2VRMS, respectively. To prevent sudden amplification, the FW is designed to compensate the volume level, upon 1V and 2V HPAMP Gain change. You will experience no difference in loudness when switching the mode to 2VRMS, but you will have the max volume extended by +6dB.
-
-2VRMS, with higher HPAMP gain, produces a little higher background noise and consumes more battery time. Both 1V and 2V mode provides the same sonic performance. There's no reason to use 2VRMS for high sensitivity IEMs or Headphones.
-
-For high sensitivity IEMS, PERFORMANCE + 1VRMS provides the lowest background noise floor. For the best sound quality, you will need to set the source and device volume as we recommend.";
+正常模式和高模式分别将ES9218p最大输出电平设置为1VRMS和2VRMS。为了防止突然放大，FW被设计成在1V和2V HPAMP增益变化时补偿音量电平。当您将模式切换到2VRMS时，音量不会有任何差别，但最大音量会延长+6dB。
+2VRMS具有更高的HPAMP增益，会产生更高的背景噪声并消耗更多的电池时间。1V和2V模式提供相同的音质性能。没有理由将2VRMS用于高灵敏度IEM或耳机。
+对于高灵敏度IEM，PERFORMANCE+1VRMS提供最低的背景噪声地板。为了获得最佳音质，您需要按照我们的建议设置音源和设备音量。";
 
 //****************************************
 //********** DAC/AMP FILTER
@@ -156,54 +143,47 @@ For high sensitivity IEMS, PERFORMANCE + 1VRMS provides the lowest background no
 //********** EQUALIZER EQUALIZER
 //****************************************
 "kSTR_ALERT_LoadPreset_Title" =
-"Loading New Preset";
+"加载新预设";
 
 "kSTR_ALERT_LoadPreset_Msg" =
-"You're about to load new EQ preset. The existing EQ setup will be lost. Are you sure to load the new preset?";
+"您将要加载新的EQ预设。现有的EQ设置将丢失。确定要加载新的预设吗？";
 
 //****************************************
 //********** EQUALIZER OPTION
 //****************************************
 "kSTR_HELP_EQ" =
-"5K provides 64-bit double-precision 10-band Equalizer.
-
-Every setting, including EQ, are kept and preserved in 5K's internal flash memory. 5K reloads the settings at boot-up and continues the same condition as configured before.
-
-Touching the EQ plot window will show you up the preset menu. There are ten custom presets, and long press on it would save the current EQ setting on it, respectively. Please note that the EQ custom presets are save to 5K's internal flash memory.";
+"5K提供64位双精度10频段均衡器。
+包括EQ在内的所有设置都保存在5K的内部闪存中。5K在启动时重新加载设置，并继续与以前配置的状态相同。
+触摸EQ绘图窗口将显示预设菜单。有十个自定义预置，长按它将保存当前的均衡设置，分别。请注意，EQ自定义预设保存到5K的内部闪存中。";
 
 //****************************************
 //********** DEVICE FW UPDATE
 //****************************************
 "kSTR_ALERT_OTA_Prepare_SubTitle" =
-"Initiating the new firmware transfer.
-This may take 10~20 sec.
-
-Please keep the 5K close to the smartphone.
-
-If you're experiencing any continuous failures, please keep the app in the foreground and keep the screen ON until you get the firmware updated completely.
-
+"启动新固件传输。
+这可能需要10~20秒。
+请把5K放在智能手机旁边。
+如果您遇到任何持续的故障，请将应用程序放在前台并保持屏幕打开，直到固件完全更新。
 ";
 
 "kSTR_ALERT_OTA_Prepare_Msg" =
 "Initiating...";
 
 "kSTR_ALERT_OTA_Progress_SubTitle" =
-"Until 5K receives and validates the perfect FW binary, it won't update the current FW.
+"在5K接收并验证完美的固件二进制文件之前，它不会更新当前固件。
 
-If failed, please try it again.
-
-If you're experiencing any continuous failures, please keep the app in the foreground and keep the screen ON until you get the firmware updated completely.
-
+如果失败，请再试一次。
+如果您遇到任何持续的故障，请将应用程序放在前台并保持屏幕打开，直到固件完全更新。
 ";
 
 "kSTR_ALERT_OTA_Rebooting_SubTitle" =
-"Rebooting the device";
+"重新启动设备";
 
 "kSTR_ALERT_OTA_Rebooting_Msg" =
-"Please wait for a moment.";
+"请稍等片刻。";
 
 "kSTR_ALERT_OTA_Complete_Msg" =
-"The new firmware is successfully updated!\nPlease restart the app.";
+"T新固件已成功更新！\请重新启动应用程序。";
 
 
 //****************************************
@@ -211,17 +191,17 @@ If you're experiencing any continuous failures, please keep the app in the foreg
 //****************************************
 
 // VOLUME (+) Button not available when no audio
-"kSTR_WARNING_1" = "The Volume(+) button is disabled when no audio streaming to prevent sudden and accidental volume change. Use the app slider to adjust the volume while no audio streaming.";
+"kSTR_WARNING_1" = "当没有音频流时，音量（+）按钮被禁用，以防止突然和意外的音量变化。在没有音频流的情况下，使用应用程序滑块调整音量。";
 
 // VOLUME PROTECTTION when switching between two source devices
-"kSTR_WARNING_2" = "VOLUME PROTECTION! The output is too louder than the previous level. Adjusting the output level back to the last one.";
+"kSTR_WARNING_2" = "音量保护！输出比上一级声音太大。将输出电平调整回最后一个。";
 
 // APP Disconnection
-"kSTR_WARNING_3" = "The Qudelix-5K is getting connected to another smartphone. Disconnecting the current app connection.";
+"kSTR_WARNING_3" = "Qudelix-5K正在连接另一部智能手机。正在断开当前应用程序连接。";
 
 // WARRANTY EXTENSION PROGRAM message
-"kSTR_ALERT_KeyCodeApply_Success" = "The warranty for this device extended successfully.";
-"kSTR_ALERT_KeyCodeApply_Fail" = "Failed to validate the warranty extension code. Please enter the valid code specific for your device.";
+"kSTR_ALERT_KeyCodeApply_Success" = "此设备的保修期已成功延长。";
+"kSTR_ALERT_KeyCodeApply_Fail" = "验证保修扩展代码失败。请输入特定于您的设备的有效代码。";
 
 "kSTR_WARNING_MIN_MAX_FMT" = "VALUE MIN:%.1f MAX:%.1f";
 
@@ -229,43 +209,34 @@ If you're experiencing any continuous failures, please keep the app in the foreg
 //********** WARRANTY EXTENSION PROGRAM (email body)
 //**********************************************************
 "kSTR_MAIL_WarrantyExtension"  =
-"We provide one year warranty for Qudelix-5K.
+"我们为Qudelix-5K提供一年保修。
+保修从与配套移动应用程序的第一次连接开始。5K将存储并保留从应用程序连接解除绑定后的开始日期。
+此外，我们还为用户提供额外的好处，以延长保修期，同时鼓励产品审查。
+写下你的评论并延长保修期。
 
-The warranty starts at the very first connection with the companion mobile app. 5K will store and hold the start date as of the app connection after unboxing.
-
-Plus, we offer additional benefits for users to extend the warranty while encouraging product reviews.
-
-Write your review and Extend the Warranty.
-
-1.Amazon Review (up to 60 days)
-Text Review(30 days) or Photo Review(60 days)
-*A photo with your gears, earphones, headphones, amp...
-
-(Take the screenshot of your review and attach it here.)
+1.亚马逊评论（最多60天）
+文字回顾（30天）或照片回顾（60天）
+*带着你的齿轮，耳机，耳机，放大器的照片。。。
+（把你的评论截图附在这里。）
 
 
-2.Community Review (any audiophile communities)
-Text Review(30 days) or Photo Review(60 days)
-*A high-resolution photo with your gears, earphones, headphones, amp...
+2.社区评论（任何发烧友社区）
+文字回顾（30天）或照片回顾（60天）
+*一个高分辨率的照片与您的设备，耳机，耳机，放大器。。。
+（在此处添加评论链接。）
 
-(Add the link for the review here.)
 
-
-3.Professional Review (30~120 days)
-Any professional review
-Should include at least more than three high-resolution photos.
-
-(Add the link for the review here.)
+3.专业评审（30~120天）
+任何专业评论
+应包括至少三张以上的高分辨率照片。
+（在此处添加评论链接。）
 
 
 
-We'll review your submission in 2~4 business days and reply to you with the extension code. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
-
-*You SHOULD apply for the extension program no later than 90 days from the warranty start.
-
-*We may ask you for your original photos and publish your pictures in our gallery on the homepage.
-
-*The extension program doesn't cover the battery time/life.
+我们将在2~4个工作日内审核您的提交，并回复您分机码。（不包括周末和节假日）韩国标准时间（UTC+09:00）
+*您应在保修开始后90天内申请延期计划。
+*我们可能会要求您提供您的原始照片，并将您的照片发布在我们的图库主页上。
+*延长计划不包括电池时间/寿命。
 
 ";
 
@@ -273,38 +244,34 @@ We'll review your submission in 2~4 business days and reply to you with the exte
 //********** WARRANTY SERVICE REQUEST (email body)
 //**********************************************************
 "kSTR_MAIL_WarrantyService"  =
-"This email is to initiate the warranty service request for any HW disorder or defect. Please go to DEVICE->TECHNICAL SUPPORT for asking any questions or helps.
+"此电子邮件用于启动任何硬件故障或缺陷的保修服务请求。如需任何问题或帮助，请转到设备->技术支持。
 
 [IMPORTANT]
-Do Not Uninstall the APP!
-Qudelix mobile app handles every warranty process along with our warranty service system. Please keep the Qudelix mobile application until you get the issue resolved. You may not be able to get the warranty service completed unless otherwise.
-
-To accelerate the service procedure, please explain the issue in detail as much as you can.
-
-(Your issue at here)
-
-Our team will get back to you in 2~4 working days. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)";
+不要卸载应用程序！
+Qudelix移动应用程序与我们的保修服务系统一起处理每个保修过程。在问题解决之前，请保留Qudelix移动应用程序。除非另有说明，否则您可能无法完成保修服务。
+为了加快服务程序，请您尽可能详细地解释这个问题。
+（你的问题在这里）
+我们团队将在2~4个工作日内回复您。（不包括周末和节假日）韩国标准时间（UTC+09:00）";
 
 "kSTR_MAIL_WarrantyClose" =
-"Did you receive a new unit?
-To activate the new unit's warranty, we need to file the case closed.
-If everything is ok, please send us this email to close your case.
-
-It may take 2~4 business days to update the warranty system for your new device. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+"你收到新单位了吗？
+要启动新设备的保修，我们需要立案结案。
+如果一切顺利，请给我们发这封邮件来结案。
+更新新设备的保修系统可能需要2~4个工作日。（不包括周末和节假日）韩国标准时间（UTC+09:00）
 ";
 
 //**********************************************************
 //********** WARRANTY SERVICE STATUS (email body)
 //**********************************************************
 "kSTR_HELP_WarrantyStatus" =
-"We're processing your warranty service request now.
-Our team will get back to you in 2~4 working days. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+"我们正在处理您的保修服务请求。
+我们团队将在2~4个工作日内回复您。（不包括周末和节假日）韩国标准时间（UTC+09:00）
 
 [IMPORTANT]
-Do Not Uninstall the APP!
-Qudelix mobile app handles every warranty process along with our warranty service system. Please keep the Qudelix mobile application until you get the issue resolved. You may not be able to get the warranty service completed unless otherwise.";
+不要卸载应用程序！
+Qudelix移动应用程序与我们的保修服务系统一起处理每个保修过程。在问题解决之前，请保留Qudelix移动应用程序。除非另有说明，否则您可能无法完成保修服务。";
 
 "kSTR_HELP_WarrantyClose" =
-"The connected device is no longer available for the warranty claim. The device has been claimed as defected or damaged. We replaced the device with a new unit or refunded.";
+"已连接的设备不再可用于保修索赔。该装置已有缺陷或损坏。我们建议您更换一个新的或退款。";
 
 
