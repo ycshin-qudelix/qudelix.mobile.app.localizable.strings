@@ -98,6 +98,8 @@ You can opt-out the codecs to get specific one active. The source device may rem
 //****************************************
 //********** INPUT USB
 //****************************************
+"kSTR_HELP_USB" =
+"Host Volume Disregard is for PS4/PS5, and 16-bit Mode is for Nintendo Switch. Please note both gaming consoles don't support the sample rates higher than 48KHz.";
 
 //****************************************
 //********** INPUT MIC
