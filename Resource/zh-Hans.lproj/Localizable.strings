@@ -33,17 +33,36 @@
 ";
 
 //****************************************
+//********** DEVICE BATTERY
+//****************************************
+"kSTR_HELP_Battery" =
+"SAFETY WARNING
+
+Always remember that heat is the number one enemy of LiPo batteries. The hotter your batteries get, the shorter their lifespan will be.
+
+Do not leave the battery in a hot temperature environment. Especially for the use case with car aux-in, do not leave the 5K in a car.  If the car is parked in the sun, the average temperature inside rises. It could reach nearly 120 ~160 degrees Fahrenheit. It would kill not only the battery life but also cause the battery in serious FIRE HAZARD.
+
+Please use 5V(1~2A) standard charger or PC USB port only for charging 5K. There are many fast chargers and USB-C 9V chargers that don't pass through any safety certifications. Those would cause permanent damage to the unit.
+
+Please note that, if improperly used, Rechargeable Lithium-ion polymer batteries are potentially hazardous and can present a severe FIRE HAZARD, SERIOUS INJURY, and PROPERTY DAMAGE.
+";
+
+//****************************************
 //********** DEVICE POWER
 //****************************************
 "kSTR_HELP_AutoPower" =
-"在USB DAC上打开
+"ON at USB DAC
 作为USB DAC连接到PC时打开5K。
 
-充电器关闭
+OFF at Charger
 连接到充电器时关闭5K。
 
-充电器打开/关闭
-连接或断开USB充电器时，分别打开或关闭5K。";
+ON/OFF upon Charger
+连接或断开USB充电器时，分别打开或关闭5K。
+
+OFF at Charger or USB DAC
+turns 5K off when connected to a charger or PC USB.
+";
 
 "kSTR_HELP_Charger" =
 "5K内置充电器可手动禁用。由于iOS USB音频输出需通过摄像头套件，因为iOS设备会将输出电流限制为100mA且导致5K无法正常运行，因此必要时您需要禁用5K线充功能。
@@ -157,6 +176,13 @@
 "5K提供64位双精度10频段均衡器。
 包括EQ在内的所有设置都保存在5K的内部闪存中。5K在启动时重新加载设置，并继续与以前配置的状态相同。
 触摸EQ绘图窗口将显示预设菜单。有十个自定义预置，长按它将保存当前的均衡设置，分别。请注意，EQ自定义预设保存到5K的内部闪存中。";
+
+//****************************************
+//********** QX-FEED (Crossfeed) Help
+//****************************************
+"kSTR_HELP_QXFEED" =
+"QX-feed, Qudelix Crossfeed, provides an emulated speaker listening environment blending L and R through Qudelix's proprietary algorithm. Even while the crossfeed works, it keeps the original characteristic of source tracks, maintaining the frequency response and loudness. Level 0 means no crossfeed(off), and a higher level would mix up L & R more for the narrower and shorter speaker angle and distance, respectively. The max Level 50 means mono, mixing up L & R by half and half.
+";
 
 //****************************************
 //********** DEVICE FW UPDATE

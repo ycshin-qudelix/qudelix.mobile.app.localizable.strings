@@ -10,27 +10,44 @@
 //********** DEVICE DEVICE
 //****************************************
 "kSTR_HELP_WarrantyCampaign" =
-"Write a review and get your warranty extended!
-Would you mind taking a few minutes to write a review for Qudelix-5K, please? Your comments and reviews help us to improve 5K better. Please share your thought on 5K with others at Amazon or any Audio Communities. We provide additional warranty extension (up to 8 months) on any published reviews at Amazon or Audio Communities.
+"Напишите отзыв и получите продление гарантии!
+Не могли бы вы уделить мне несколько минут, чтобы написать отзыв о Qudelix-5K, пожалуйста? Ваши комментарии и отзывы помогают нам улучшить 5K. Пожалуйста, поделитесь своими мыслями о 5K с другими на Amazon или в любых аудиосообществах. Мы предоставляем дополнительное продление гарантии (до 8 месяцев) на любые опубликованные отзывы на Amazon или в сообществах аудиофилов.
 ";
 
 //****************************************
 //********** DEVICE SEARCH
 //****************************************
 "kSTR_HELP_Connection" =
-"5K allows the APP connection with one device at a time. Remove the existing APP connection before making a new connection with another device.
+"5K позволяет подключать приложение к одному устройству за один раз. Удалите существующее соединение с приложением, прежде чем устанавливать новое соединение с другим устройством.
 
-The APP link is different from the BR/EDR link for A2DP. To stream audio, connect(pair) 5K to the smartphone first. (iOS--> Settings --> Bluetooth --> MY DEVICES)
+Соединение для приложения отличается от соединения BR/EDR для передачи звука(A2DP). Для потоковой передачи звука сначала подключите 5K к смартфону.
+(iOS--> Настройки --> Bluetooth -> мои устройства)
+(Android -> Настройки -> Подключения -> Bluetooth -> Сканировать)
 
 
-[Trouble Shooting]
+[Устранение Неполадок]
 
-If you can't connect your 5K with the app, please follow the steps below.
+Если вы не можете подключить свой 5K к приложению, пожалуйста, выполните следующие действия:
 
-1. Remove all devices from the system Bluetooth paired device list
-2. Pair 5K with the smartphone
-3. Uninstall / Install Qudelix mobile app
-4. Reboot the smartphone
+1. Удалите все устройства из списка сопряженных устройств Bluetooth
+2. Соедините 5K со смартфоном
+3. Удалите / установите мобильное приложение Qudelix
+4. Перезагрузить смартфон
+";
+
+//****************************************
+//********** DEVICE BATTERY
+//****************************************
+"kSTR_HELP_Battery" =
+"SAFETY WARNING
+
+Always remember that heat is the number one enemy of LiPo batteries. The hotter your batteries get, the shorter their lifespan will be.
+
+Do not leave the battery in a hot temperature environment. Especially for the use case with car aux-in, do not leave the 5K in a car.  If the car is parked in the sun, the average temperature inside rises. It could reach nearly 120 ~160 degrees Fahrenheit. It would kill not only the battery life but also cause the battery in serious FIRE HAZARD.
+
+Please use 5V(1~2A) standard charger or PC USB port only for charging 5K. There are many fast chargers and USB-C 9V chargers that don't pass through any safety certifications. Those would cause permanent damage to the unit.
+
+Please note that, if improperly used, Rechargeable Lithium-ion polymer batteries are potentially hazardous and can present a severe FIRE HAZARD, SERIOUS INJURY, and PROPERTY DAMAGE.
 ";
 
 //****************************************
@@ -38,74 +55,83 @@ If you can't connect your 5K with the app, please follow the steps below.
 //****************************************
 "kSTR_HELP_AutoPower" =
 "ON at USB DAC
-turns 5K on when connected to PC as a USB DAC.
+включает 5K при подключении к ПК в качестве ЦАПа, подключаемого по USB.
 
 OFF at Charger
-turns 5K off when connected to a charger.
+5К выключается при подключении к зарядному устройству.
 
 ON/OFF upon Charger
-turns 5K on or off, respectively, upon the connection or disconnection to a USB charger.";
+включает или выключает 5K соответственно при подключении или отключении USB-зарядного устройства.
+
+OFF at Charger or USB DAC
+turns 5K off when connected to a charger or PC USB.
+";
 
 "kSTR_HELP_Charger" =
-"The 5K built-in charger can be disabled manually. For iOS USB Audio through Camera Kit, you need to disable the 5K built-in charger since iOS device limits the current up to 100mA.
+"Встроенное зарядное устройство 5K можно отключить вручную. Для подключения USB в iOS через Camera Kit вам необходимо отключить встроенное зарядное устройство 5K, так как устройство iOS ограничивает выходной ток до 100 мА.
 
-To disable the charger, 5K should have the battery at least more than 20%. The charger will get back to enabled if the battery gets lower than 20%.";
+Чтобы отключить зарядное устройство, 5K должен иметь батарею, заряженную не менее чем на 20%. Зарядное устройство снова включится, если уровень заряда батареи опустится ниже 20%.
+";
 
 //****************************************
 //********** DEVICE MISC
 //****************************************
 "kSTR_HELP_BTN" =
-"The buttons are named as BLUE Upper (BU), BLUE Lower (BL), RED Upper (RU), and RED Lower (RL), respectively.
+"Кнопки называются СИНИЙ верхний (BU), СИНИЙ нижний (BL), КРАСНЫЙ верхний (RU) и КРАСНЫЙ нижний (RL), соответственно.
 
-[Default Button Behavior]
+[Поведение Кнопки По Умолчанию]
 
-BLUE Upper (BU, Notched)
-   Pairing Mode (long 3 sec)
-   Play/Pause (single click)
-   Next Track (double click)
-   Answering Incoming Call (single click)
+СИНИЙ верхний (BU, зубчатый)
+	Режим сопряжения (держать 3 секунды)
+	Воспроизведение / пауза (один щелчок)
+	Следующий трек (двойной щелчок)
+	Ответ на входящий звонок (один щелчок)
 
-BLUE Lower (BL)
-   Power On/Off (long 3 sec)
-   Previous Track (double click)
+СИНИЙ Нижний (BL)
+	Включение / выключение питания (держать 3 секунды)
+	Предыдущая дорожка (двойной щелчок)
 
-RED Upper (RU)
-   Volume Up
+КРАСНЫЙ Верхний (RU)
+	Увеличить громкость
 
-RED Lower (RL)
-   Volume Down
+КРАСНЫЙ Нижний (RL)
+	Звук тише
 
-Optionally, the Power On/Off shortcut with the two-button press can be enabled. Single BLUE Lower (BL) press can be mapped for navigating to the previous track.";
+При желании можно сделать ВКЛ / ВЫКЛ питания нажатием двух кнопок. Одиночное СИНЕЕ нижнее (BL) нажатие может быть назначено для перехода к предыдущей дорожке.
+";
 
 //****************************************
 //********** INPUT STATE
 //****************************************
 "kSTR_HELP_Ldac" =
-"In general, LDAC 606/660kbps or higher provides excellent sound quality comparable to the wired interface. If you don't get sufficient sound quality, please set a higher LDAC bit rate in the Android Developer Options menu.
+"В целом LDAC 606/660 кбит/с или выше обеспечивает отличное качество звука, сопоставимое с проводным интерфейсом. Если вы не получаете достаточного качества звука, установите более высокую скорость передачи данных LDAC в меню параметров разработчика Android.
 
-Some specific Android smartphones may not be able to provide reliable 990kbps streaming. Turning off the smartphone display, or using 5GHz WiFi might help the LDAC streamed a little better.
+Некоторые смартфоны Android могут не обеспечивать надежную потоковую передачу со скоростью 990 кбит/с. Отключение дисплея смартфона или использование Wi-Fi 5 ГГц может улучшить потоковую передачу через LDAC.
 
-The 660kbps is the best trade-off for reliable streaming and sound quality. In most cases, you would get good enough sound quality with LDAC 660kbps.";
+Скорость передачи 660 кбит/с - лучший компромисс для надежной потоковой передачи и качества звука. В большинстве случаев вы получите достаточно хорошее качество звука с LDAC 660 кбит/с.
+";
 
 //****************************************
 //********** INPUT CODEC
 //****************************************
 "kSTR_HELP_CODEC" =
-"Only the Bluetooth source devices (smartphone or PC) have a privilege to choose the codec. 5K is a Bluetooth sink device and provides the supported codec list to the source device at the beginning.
+"Только исходные устройства Bluetooth (смартфон или ПК) имеют право выбирать кодек. 5K является устройством-приемником Bluetooth и вначале предоставляет список поддерживаемых кодеков исходному устройству.
 
-You can opt-out the codecs to get specific one active. The source device may remember the codec list received at the prior connection. You may need to remove Qudelix-5K from the system Bluetooth paired list and make it paired again after making any change in the codec option.";
+Вы можете отказаться от ненужных кодеков, чтобы активировать конкретный. Исходное устройство может запомнить список кодеков, полученный при предыдущем соединении. Возможно, вам придется удалить Qudelix-5K из списка сопряженных устройств Bluetooth и снова установить сопряжение после внесения любых изменений в параметры кодеков.
+";
 
 //****************************************
 //********** INPUT USB
 //****************************************
 "kSTR_HELP_USB" =
-"Host Volume Disregard is for PS4/PS5, and 16-bit Mode is for Nintendo Switch. Please note both gaming consoles don't support the sample rates higher than 48KHz.";
+"Игнорирование громкости хоста предназначено для PS4/PS5, а 16-битный режим - для Nintendo Switch. Обратите внимание, что обе игровые консоли не поддерживают частоту дискретизации выше 48 кГц.
+";
 
 //****************************************
 //********** INPUT MIC
 //****************************************
 "kSTR_HELP_Ambient" =
-"Microphone Pass-Through mode enables you to hear the ambient sound when in the music streaming and voice call. During the phone call, it helps you to listen to your voice. AMBIENT LEVEL adjust the mixup ratio between Microphone and Music. *For Voice Call, the ambient mixup ratio is fixed to 50:50.
+"Режим сквозного микрофона позволяет слышать окружающий звук во время потоковой передачи музыки и голосового вызова. Во время телефонного разговора он помогает вам слышать свой голос. Коэффициент регулирует соотношение смешивания микрофона и музыки. * Для голосового вызова соотношение смешивания установлено на 50:50.
 ";
 
 //****************************************
@@ -120,35 +146,32 @@ You can opt-out the codecs to get specific one active. The source device may rem
 //********** VOLUME OPTION
 //****************************************
 "kSTR_HELP_Volume" =
-"5K Absolute Volume Control offers 2-way associative control for optimal sound quality. It always keeps and guarantees the full precision audio stream over Bluetooth or USB. In either way, via smartphone source volume or 5K device volume, you can control the loudness level without any loss. It is highly recommended to turn on the Absolute Volume for the best sound quality.
+"Абсолютный регулятор громкости 5K предлагает 2-полосное ассоциативное управление для оптимального качества звука. Он всегда сохраняет и гарантирует полную точность аудиопотока через Bluetooth или USB. В любом случае вы можете управлять уровнем громкости без потерь либо на смартфоне, либо на устройстве 5К. Настоятельно рекомендуется включить абсолютную громкость для наилучшего качества звука.
 
-The 5K provides a higher output power than other portable audio devices. An accidental volume up may damage your ear and IEMs. For high sensitivity IEMs, we strongly recommend limiting the device volume.
+5K обеспечивает более высокую выходную мощность, чем другие портативные аудиоустройства. Случайное увеличение громкости может повредить ваше ухо и наушники (IEM). Для высокочувствительных наушников мы настоятельно рекомендуем ограничить громкость устройства.
 
-The Volume Protection works when two source devices have different source volume level. When you switch the audio source, 5K check the volume differences and adjust the volume the device volume if the level is too louder than the previous level.
+Защита громкости cрабатывает, когда два устройства-источника имеют разный уровень громкости. Когда вы переключаете источник звука, 5K проверяет разницу в громкости и регулирует громкость устройства, если уровень громкости намного выше предыдущего уровня.
 
-
-[IMPORTANT]
-
-Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support the Absolute Volume Control. The Android Source Volume scales down the PCM sample as the volume gets lowered. For the best sound quality with Android USB Audio, you will need to keep the source volume at maximum.
-
-And due to the above reason, the Volume Protection may not work as intended when switching audio between Android USB and Bluetooth.";
-
+[ВАЖНО]
+В отличие от USB на ПК и USB на iOS (через Camera Kit), Android USB Audio не поддерживает абсолютную регулировку громкости. Громкость источника на Android уменьшает сэмплирование импульсно-кодовой модуляции при её уменьшении.  Для наилучшего качества звука с аудиотракта USB Android необходимо поддерживать максимальную громкость источника. И по вышеуказанной причине защита громкости может не срабатывать должным образом при переключении звука между USB Android и Bluetooth
+";
 
 //****************************************
 //********** DAC/AMP MODE
 //****************************************
 "kSTR_HELP_DacAmp" =
-"5K offers two DAC profiles for efficient battery time management.
+"5K предлагает два профиля ЦАП для эффективного управления временем автономной работы.
 
-STANDARD provides the best trade-off for battery time and sound quality, while PERFORMANCE does the best sound quality with lesser battery time.
+Режим СТАНДАРТ обеспечивает наилучший компромисс между временем автономной работы и качеством звука, в то время как режим ПРОИЗВОДИТЕЛЬНОСТЬ обеспечивает лучшее качество звука при меньшем времени автономной работы.
 
-USB connection to the device overrides the current profile and switches it to PERFORMANCE temporarily.
+USB-соединение с устройством переопределяет текущий профиль и временно переключает его в режим ПРОИЗВОДИТЕЛЬНОСТЬ.
 
-NORMAL and HIGH mode set the ES9218p maximum output level as 1VRMS and 2VRMS, respectively. To prevent sudden amplification, the FW is designed to compensate the volume level, upon 1V and 2V HPAMP Gain change. You will experience no difference in loudness when switching the mode to 2VRMS, but you will have the max volume extended by +6dB.
+Режим работ НОРМАЛЬНЫЙ И ВЫСОКИЙ задают ES9218p максимальный уровень выходного сигнала как 1VRMS и 2VRMS соответственно. Чтобы предотвратить внезапное усиление, ПО компенсирует уровень громкости при изменении усиления с 1V до 2V. Вы не почувствуете разницы в громкости при переключении режима на 2VRMS, но у вас будет увеличена максимальная громкость на +6 дБ.
 
-2VRMS, with higher HPAMP gain, produces a little higher background noise and consumes more battery time. Both 1V and 2V mode provides the same sonic performance. There's no reason to use 2VRMS for high sensitivity IEMs or Headphones.
+Высокий (2VRMS), с более высоким коэффициентом усиления, имеет немного более высокий фоновый шум и потребляет больше энергии, сокращая время автономной работы. Оба режима обеспечивают одинаковые акустические характеристики. Нет причин использовать 2VRMS для высокочувствительных IEM или наушников.
 
-For high sensitivity IEMS, PERFORMANCE + 1VRMS provides the lowest background noise floor. For the best sound quality, you will need to set the source and device volume as we recommend.";
+Для высокочувствительных наушников комбинация производительность + низкое усиление обеспечивает самый низкий уровень фонового шума. Для достижения наилучшего качества звука вам необходимо настроить громкость источника и устройства так, как мы рекомендуем.
+";
 
 //****************************************
 //********** DAC/AMP FILTER
@@ -158,54 +181,61 @@ For high sensitivity IEMS, PERFORMANCE + 1VRMS provides the lowest background no
 //********** EQUALIZER EQUALIZER
 //****************************************
 "kSTR_ALERT_LoadPreset_Title" =
-"Loading New Preset";
+"Загрузка Нового Пресета";
 
 "kSTR_ALERT_LoadPreset_Msg" =
-"You're about to load new EQ preset. The existing EQ setup will be lost. Are you sure to load the new preset?";
+"Вы собираетесь загрузить новый пресет эквалайзера. Существующая настройка эквалайзера будет потеряна. Вы уверены, что хотите загрузить новый пресет?";
 
 //****************************************
 //********** EQUALIZER OPTION
 //****************************************
 "kSTR_HELP_EQ" =
-"5K provides 64-bit double-precision 10-band Equalizer.
+"5K обеспечивает 64-битный 10-полосный эквалайзер двойной точности.
 
-Every setting, including EQ, are kept and preserved in 5K's internal flash memory. 5K reloads the settings at boot-up and continues the same condition as configured before.
+Каждая настройка, включая эквалайзер, хранится во внутренней флэш-памяти 5K. 5K перезагружает настройки при загрузке и продолжает работать в том же состоянии, что и ранее.
 
-Touching the EQ plot window will show you up the preset menu. There are ten custom presets, and long press on it would save the current EQ setting on it, respectively. Please note that the EQ custom presets are save to 5K's internal flash memory.";
+Прикосновение к окну графика эквалайзера откроет вам меню предустановок. Есть десять пользовательских пресетов, и длительное нажатие на пресет сохранит текущую настройку эквалайзера на нем, соответственно. Обратите внимание, что пользовательские пресеты эквалайзера сохраняются во внутренней флэш-памяти 5K.
+";
+
+//****************************************
+//********** QX-FEED (Crossfeed) Help
+//****************************************
+"kSTR_HELP_QXFEED" =
+"QX-feed, Qudelix Crossfeed, provides an emulated speaker listening environment blending L and R through Qudelix's proprietary algorithm. Even while the crossfeed works, it keeps the original characteristic of source tracks, maintaining the frequency response and loudness. Level 0 means no crossfeed(off), and a higher level would mix up L & R more for the narrower and shorter speaker angle and distance, respectively. The max Level 50 means mono, mixing up L & R by half and half.
+";
 
 //****************************************
 //********** DEVICE FW UPDATE
 //****************************************
 "kSTR_ALERT_OTA_Prepare_SubTitle" =
-"Initiating the new firmware transfer.
-This may take 10~20 sec.
+"Начало переноса новой прошивки.
+Это может занять ~ 10 до 20 секунд.
 
-Please keep the 5K close to the smartphone.
+Пожалуйста, держите 5K рядом со смартфоном.
 
-If you're experiencing any continuous failures, please keep the app in the foreground and keep the screen ON until you get the firmware updated completely.
-
+Если вы постоянно сталкиваетесь с какими-либо сбоями, держите приложение на переднем плане и держите экран включенным до полного обновления прошивки.
 ";
 
+
 "kSTR_ALERT_OTA_Prepare_Msg" =
-"Initiating...";
+"Запуск...";
 
 "kSTR_ALERT_OTA_Progress_SubTitle" =
-"Until 5K receives and validates the perfect FW binary, it won't update the current FW.
+"Пока 5K не получит и не проверит идеальный двоичный файл прошивки, он не будет обновлять текущую прошивку.
 
-If failed, please try it again.
+Если не удалось, попробуйте еще раз.
 
-If you're experiencing any continuous failures, please keep the app in the foreground and keep the screen ON until you get the firmware updated completely.
-
+Если вы постоянно сталкиваетесь с какими-либо сбоями, держите приложение на переднем плане и держите экран включенным до полного обновления прошивки.
 ";
 
 "kSTR_ALERT_OTA_Rebooting_SubTitle" =
-"Rebooting the device";
+"Перезагрузка устройства";
 
 "kSTR_ALERT_OTA_Rebooting_Msg" =
-"Please wait for a moment.";
+"Пожалуйста, подождите минуту.";
 
 "kSTR_ALERT_OTA_Complete_Msg" =
-"The new firmware is successfully updated!\nPlease restart the app.";
+"Новая прошивка успешно обновлена! Пожалуйста, перезапустите приложение.";
 
 
 //****************************************
@@ -213,61 +243,60 @@ If you're experiencing any continuous failures, please keep the app in the foreg
 //****************************************
 
 // VOLUME (+) Button not available when no audio
-"kSTR_WARNING_1" = "The Volume(+) button is disabled when no audio streaming to prevent sudden and accidental volume change. Use the app slider to adjust the volume while no audio streaming.";
+"kSTR_WARNING_1" =
+"Кнопка громкости (+) отключена, когда нет потокового аудио, чтобы предотвратить внезапное и случайное изменение громкости. Используйте ползунок приложения, чтобы отрегулировать громкость при отсутствии потоковой передачи звука.
+";
 
 // VOLUME PROTECTTION when switching between two source devices
-"kSTR_WARNING_2" = "VOLUME PROTECTION! The output is too louder than the previous level. Adjusting the output level back to the last one.";
+"kSTR_WARNING_2" = "Выходной сигнал сильно громче, чем предыдущий уровень. Возвращение уровня выходного сигнала к последнему.";
 
 // APP Disconnection
-"kSTR_WARNING_3" = "The Qudelix-5K is getting connected to another smartphone. Disconnecting the current app connection.";
+"kSTR_WARNING_3" = "Qudelix-5K подключается к другому смартфону. Отключение текущего подключения приложения.";
 
 // WARRANTY EXTENSION PROGRAM message
-"kSTR_ALERT_KeyCodeApply_Success" = "The warranty for this device extended successfully.";
-"kSTR_ALERT_KeyCodeApply_Fail" = "Failed to validate the warranty extension code. Please enter the valid code specific for your device.";
+"kSTR_ALERT_KeyCodeApply_Success" = "Срок гарантии на это устройство продлен успешно.";
+"kSTR_ALERT_KeyCodeApply_Fail" = "Отказ активации кода продления гарантийного срока. Пожалуйста, введите рабочий код, который является специальным для вашего устройства.";
 
-"kSTR_WARNING_MIN_MAX_FMT" = "VALUE MIN:%.1f MAX:%.1f";
+"kSTR_WARNING_MIN_MAX_FMT" = "ЗНАЧЕНИЕ МИН.:%.1f МАКС:%.1f";
 
 //**********************************************************
 //********** WARRANTY EXTENSION PROGRAM (email body)
 //**********************************************************
 "kSTR_MAIL_WarrantyExtension"  =
-"We provide one year warranty for Qudelix-5K.
+"Мы предоставляем годовую гарантию на Qudelix-5K.
 
-The warranty starts at the very first connection with the companion mobile app. 5K will store and hold the start date as of the app connection after unboxing.
+Гарантия начинается при первом же подключении к мобильному приложению-компаньону. 5K будет хранить и удерживать дату начала подключения приложения после распаковки.
 
-Plus, we offer additional benefits for users to extend the warranty while encouraging product reviews.
+Кроме того, мы предлагаем пользователям дополнительные преимущества по продлению гарантии, поощряя обзоры продукта.
 
-Write your review and Extend the Warranty.
+Напишите свой отзыв и продлите срок действия гарантии.
 
-1.Amazon Review (up to 60 days)
-Text Review(30 days) or Photo Review(60 days)
-*A photo with your gears, earphones, headphones, amp...
+1. Обзор на Амазоне (до 60 дней)
+Текстовый обзор (30 дней) или фотообзор (60 дней)
+Фотография с вашим снаряжением, наушниками, наушниками, усилителем ...
 
-(Take the screenshot of your review and attach it here.)
+(Сделайте снимок экрана своего обзора и прикрепите его сюда.)
 
+2. Обзор сообщества (любые сообщества аудиофилов)
+Текстовый обзор (30 дней) или фотообзор (60 дней)
+Фотография в высоком разрешении с вашим оборудованием, наушниками, наушниками, усилителем ...
 
-2.Community Review (any audiophile communities)
-Text Review(30 days) or Photo Review(60 days)
-*A high-resolution photo with your gears, earphones, headphones, amp...
+(Добавьте сюда ссылку на обзор.)
 
-(Add the link for the review here.)
+3. Профессиональный обзор (30 ~ 120 дней)
+Любой профессиональный обзор
+Должен включать не менее трех фотографий с высоким разрешением.
 
-
-3.Professional Review (30~120 days)
-Any professional review
-Should include at least more than three high-resolution photos.
-
-(Add the link for the review here.)
+(Добавьте сюда ссылку на обзор.)
 
 
+Мы рассмотрим вашу заявку в течение 2–4 рабочих дней и ответим вам с кодом расширения. (кроме выходных и праздничных дней). Стандартное время Кореи (UTC + 09: 00)
 
-We'll review your submission in 2~4 business days and reply to you with the extension code. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+* Вы ДОЛЖНЫ подать заявку на участие в программе продления не позднее, чем через 90 дней с момента начала действия гарантии.
 
-*You SHOULD apply for the extension program no later than 90 days from the warranty start.
+* Мы можем попросить вас предоставить ваши оригинальные фотографии и опубликовать их в нашей галерее на главной странице.
 
-*We may ask you for your original photos and publish your pictures in our gallery on the homepage.
-
-*The extension program doesn't cover the battery time/life.
+* Программа продления гарантии не распространяется на время / срок службы батареи.
 
 ";
 
@@ -275,38 +304,35 @@ We'll review your submission in 2~4 business days and reply to you with the exte
 //********** WARRANTY SERVICE REQUEST (email body)
 //**********************************************************
 "kSTR_MAIL_WarrantyService"  =
-"This email is to initiate the warranty service request for any HW disorder or defect. Please go to DEVICE->TECHNICAL SUPPORT for asking any questions or helps.
+"Это сообщение эл. почты инициирует запрос на гарантийное сервисное обслуживание в случае любой неисправности железа или дефекта. Пожалуйста пройдите в DEVICE->TECHNICAL SUPPORT по любым вопросам или помощи.
 
-[IMPORTANT]
-Do Not Uninstall the APP!
-Qudelix mobile app handles every warranty process along with our warranty service system. Please keep the Qudelix mobile application until you get the issue resolved. You may not be able to get the warranty service completed unless otherwise.
+[ВАЖНО]
+Не удаляйте приложение!
+Мобильное приложение Qudelix обрабатывает каждый гарантийный процесс вместе с нашей системой гарантийного обслуживания. Сохраняйте мобильное приложение Qudelix, пока проблема не будет решена. Вы не сможете получить гарантийное обслуживание, если будет по-другому.
 
-To accelerate the service procedure, please explain the issue in detail as much as you can.
+(Ваша проблема здесь)
 
-(Your issue at here)
-
-Our team will get back to you in 2~4 working days. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)";
+Наша команда свяжется с вами в течение 2–4 рабочих дней. (кроме выходных и праздничных дней). Стандартное время Кореи (UTC + 09: 00)";
 
 "kSTR_MAIL_WarrantyClose" =
-"Did you receive a new unit?
-To activate the new unit's warranty, we need to file the case closed.
-If everything is ok, please send us this email to close your case.
+"Вы получили новое устройство?
+Для активирования гарантии нового устройства нам необходимо запротоколировать факт, что дело закрыто.
+В случае, если всё нормально, пожалуйста, отправьте нам сообщение по эл. почте, чтобы мы закрыли Ваше дело.
 
-It may take 2~4 business days to update the warranty system for your new device. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
-";
+Обновление системы гарантии нового устройства может занять 2-4 рабочих дня (сюда не входят выходные и праздничные дни). Стандартное время Кореи (UTC + 09: 00)";
+
 
 //**********************************************************
 //********** WARRANTY SERVICE STATUS (email body)
 //**********************************************************
 "kSTR_HELP_WarrantyStatus" =
-"We're processing your warranty service request now.
-Our team will get back to you in 2~4 working days. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+"Сейчас мы обрабатываем ваш запрос на гарантийное обслуживание.
+Наша команда свяжется с вами в течение 2–4 рабочих дней. (кроме выходных и праздничных дней). Стандартное время Кореи (UTC + 09: 00)
 
-[IMPORTANT]
-Do Not Uninstall the APP!
-Qudelix mobile app handles every warranty process along with our warranty service system. Please keep the Qudelix mobile application until you get the issue resolved. You may not be able to get the warranty service completed unless otherwise.";
+[ВАЖНО]
+Не удаляйте приложение!
+Мобильное приложение Qudelix обрабатывает каждый гарантийный процесс вместе с нашей системой гарантийного обслуживания. Сохраняйте мобильное приложение Qudelix, пока проблема не будет решена. Вы не сможете получить гарантийное обслуживание, если будет по-другому.";
 
 "kSTR_HELP_WarrantyClose" =
-"The connected device is no longer available for the warranty claim. The device has been claimed as defected or damaged. We replaced the device with a new unit or refunded.";
-
+"Подключенное устройство больше не подлежит гарантийной претензии. Устройство было заявлено как неисправное или поврежденное. Мы заменили устройство на новое или вернули деньги.";
 

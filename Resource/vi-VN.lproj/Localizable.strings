@@ -34,6 +34,21 @@ If you can't connect your 5K with the app, please follow the steps below.
 ";
 
 //****************************************
+//********** DEVICE BATTERY
+//****************************************
+"kSTR_HELP_Battery" =
+"SAFETY WARNING
+
+Always remember that heat is the number one enemy of LiPo batteries. The hotter your batteries get, the shorter their lifespan will be.
+
+Do not leave the battery in a hot temperature environment. Especially for the use case with car aux-in, do not leave the 5K in a car.  If the car is parked in the sun, the average temperature inside rises. It could reach nearly 120 ~160 degrees Fahrenheit. It would kill not only the battery life but also cause the battery in serious FIRE HAZARD.
+
+Please use 5V(1~2A) standard charger or PC USB port only for charging 5K. There are many fast chargers and USB-C 9V chargers that don't pass through any safety certifications. Those would cause permanent damage to the unit.
+
+Please note that, if improperly used, Rechargeable Lithium-ion polymer batteries are potentially hazardous and can present a severe FIRE HAZARD, SERIOUS INJURY, and PROPERTY DAMAGE.
+";
+
+//****************************************
 //********** DEVICE POWER
 //****************************************
 "kSTR_HELP_AutoPower" =
@@ -44,7 +59,11 @@ OFF at Charger
 turns 5K off when connected to a charger.
 
 ON/OFF upon Charger
-turns 5K on or off, respectively, upon the connection or disconnection to a USB charger.";
+turns 5K on or off, respectively, upon the connection or disconnection to a USB charger.
+
+OFF at Charger or USB DAC
+turns 5K off when connected to a charger or PC USB.
+";
 
 "kSTR_HELP_Charger" =
 "The 5K built-in charger can be disabled manually. For iOS USB Audio through Camera Kit, you need to disable the 5K built-in charger since iOS device limits the current up to 100mA.
@@ -172,6 +191,13 @@ For high sensitivity IEMS, PERFORMANCE + 1VRMS provides the lowest background no
 Every setting, including EQ, are kept and preserved in 5K's internal flash memory. 5K reloads the settings at boot-up and continues the same condition as configured before.
 
 Touching the EQ plot window will show you up the preset menu. There are ten custom presets, and long press on it would save the current EQ setting on it, respectively. Please note that the EQ custom presets are save to 5K's internal flash memory.";
+
+//****************************************
+//********** QX-FEED (Crossfeed) Help
+//****************************************
+"kSTR_HELP_QXFEED" =
+"QX-feed, Qudelix Crossfeed, provides an emulated speaker listening environment blending L and R through Qudelix's proprietary algorithm. Even while the crossfeed works, it keeps the original characteristic of source tracks, maintaining the frequency response and loudness. Level 0 means no crossfeed(off), and a higher level would mix up L & R more for the narrower and shorter speaker angle and distance, respectively. The max Level 50 means mono, mixing up L & R by half and half.
+";
 
 //****************************************
 //********** DEVICE FW UPDATE
