@@ -120,6 +120,10 @@ turns 5K off when connected to a charger or PC USB.
 Вы можете отказаться от ненужных кодеков, чтобы активировать конкретный. Исходное устройство может запомнить список кодеков, полученный при предыдущем соединении. Возможно, вам придется удалить Qudelix-5K из списка сопряженных устройств Bluetooth и снова установить сопряжение после внесения любых изменений в параметры кодеков.
 ";
 
+"kSTR_HELP_LDAC_FS" =
+"Sony LDAC supports the sample rate up to 96KHz. Typically, most source audio is 44.1KHz, and YouTube Audio streaming is 44.1KHz as well. Android automatically selects the highest LDAC sample rate, 96KHz, and it upsamples the source audio to 96KHz for the LDAC encoder. For a 44.1KHz source, encoding 44.1KHz @ 909kbps would provide slightly better sound quality than encoding 96KHz(Oversampled) @ 990kbps. You can opt-out the supported LDAC frequencies and fix the LDAC sample rate to 44.1KHz. If you usually listen to 44.1KHz sources, fixing the LDAC sample rate at 44.1KHz, as is, would provide the best sound quality as well as slightly longer battery time.
+";
+
 //****************************************
 //********** INPUT USB
 //****************************************
