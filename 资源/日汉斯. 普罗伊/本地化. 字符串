@@ -18,7 +18,7 @@
 //********** DEVICE SEARCH
 //****************************************
 "kSTR_HELP_Connection" =
-"5K允许应用程序一次连接一个设备。在与其他设备建立新连接之前，请删除现有的应用程序连接。
+"5K允许应用程序单次连接单个设备。在与其它设备建立新连接之前，请关闭现有的应用程序连接。
 
 应用程序链接与A2DP的BR/EDR链接不同。要传输音频，请先将（配对）5K连接到智能手机。（iOS-->设置-->蓝牙-->我的设备）
 
@@ -36,15 +36,12 @@
 //********** DEVICE BATTERY
 //****************************************
 "kSTR_HELP_Battery" =
-"SAFETY WARNING
+"安全警告
 
-Always remember that heat is the number one enemy of LiPo batteries. The hotter your batteries get, the shorter their lifespan will be.
-
-Do not leave the battery in a hot temperature environment. Especially for the use case with car aux-in, do not leave the 5K in a car.  If the car is parked in the sun, the average temperature inside rises. It could reach nearly 120 ~160 degrees Fahrenheit. It would kill not only the battery life but also cause the battery in serious FIRE HAZARD.
-
-Please use 5V(1~2A) standard charger or PC USB port only for charging 5K. There are many fast chargers and USB-C 9V chargers that don't pass through any safety certifications. Those would cause permanent damage to the unit.
-
-Please note that, if improperly used, Rechargeable Lithium-ion polymer batteries are potentially hazardous and can present a severe FIRE HAZARD, SERIOUS INJURY, and PROPERTY DAMAGE.
+谨记高温是锂电池的头号终结者！电池+1℃，寿命-1s。耗子尾汁！
+不要将电池置于高温环境中，使用汽车aux-in时不要把5K留在车里。阳光下的车内平均温度可达华氏120～160度，它不仅会缩短电池的使用寿命，甚至会导致电池发生严重火灾。
+请使用5V（1~2A）标准充电器或PC USB端口仅为5K充电。有许多快速充电器和USB-C 9V充电器没有通过任何安全认证，那会对5k造成永久性的伤害。
+请注意，可充电锂离子聚合物电池具有潜在的危险性，使用不当可能会造成严重的火灾、人身和财产损失。
 ";
 
 //****************************************
@@ -61,12 +58,12 @@ ON/OFF upon Charger
 连接或断开USB充电器时，分别打开或关闭5K。
 
 OFF at Charger or USB DAC
-turns 5K off when connected to a charger or PC USB.
+连接到充电器或PC USB时关闭5K。
 ";
 
 "kSTR_HELP_Charger" =
-"5K内置充电器可手动禁用。由于iOS USB音频输出需通过摄像头套件，因为iOS设备会将输出电流限制为100mA且导致5K无法正常运行，因此必要时您需要禁用5K线充功能。
-要禁用充电器，5K的电池至少应超过20%。如果电池电量低于20%，充电器将恢复启用状态。";
+"5K充电可手动禁用。iOS USB音频输出需通过摄像头套件，因为iOS设备会将输出电流限制为100mA且导致5K无法正常运行，因此必要时您需要禁用5K线充功能。
+要禁用充电器，5K的电量至少应超过20%。如果电池电量低于20%，充电将恢复启用状态。";
 
 //****************************************
 //********** DEVICE MISC
@@ -92,38 +89,40 @@ turns 5K off when connected to a charger or PC USB.
 红色下键（RL）
   降低音量
 
-（可选）可以启用按两个按钮的电源开/关快捷方式。还可以映射单个蓝色下键（BL）按钮以导航到上一个曲目。";
+（可选）可以启用按两个按钮的电源开/关快捷方式，还可以映射单个蓝色下键（BL）按钮以导航到上一个曲目。";
 
 //****************************************
 //********** INPUT STATE
 //****************************************
 "kSTR_HELP_Ldac" =
 "一般来说，LDAC 606/660kbps或更高提供与有线接口相当的出色音质。如果您没有获得足够的音质，请在Android开发者选项菜单中设置更高的LDAC比特率。
-一些特定的Android智能手机可能无法提供可靠的990kbps流媒体。关闭智能手机显示屏，或者使用5GHz WiFi，可能会帮助LDAC更好地传输数据。
-660kbps是可靠流媒体和音质的最佳折衷方案。在大多数情况下，使用LDAC 660kbps可以获得足够好的音质。";
+一些特定的Android智能手机可能无法提供可靠的990kbps流媒体。为更好地传输LDAC数据，可关闭智能手机显示屏或者使用5GHz频段WiFi。
+660kbps是数据稳定和音质的最佳折衷方案。大多数情况下使用LDAC 660kbps可以获得足够好的音质。";
 
 //****************************************
 //********** INPUT CODEC
 //****************************************
 "kSTR_HELP_CODEC" =
-"只有蓝牙源设备（智能手机或PC）有权选择编解码器。5K是一个蓝牙接收器设备，在开始时向源设备提供支持的编解码器列表。
-您可以选择退出编解码器以激活特定的编解码器。源设备可以记住在先前连接处接收的编解码器列表。您可能需要从系统蓝牙配对列表中删除Qudelix-5K，并在对编解码器选项进行任何更改后使其再次配对。";
+"只有蓝牙源设备（智能手机或PC）有权选择编解码器。5K是一个蓝牙接收器设备，只在初始时向源设备提供支持的编解码器列表。
+您可以选择退出连接以激活特定的编解码器。源设备可以记住在先前连接处接收的编解码器列表。您可能需要从系统蓝牙配对列表中删除Qudelix-5K，并在对编解码器选项进行任何更改后使其再次配对。";
 
 "kSTR_HELP_LDAC_FS" =
-"Sony LDAC supports the sample rate up to 96KHz. Typically, most source audio is 44.1KHz, and YouTube Audio streaming is 44.1KHz as well. Android automatically selects the highest LDAC sample rate, 96KHz, and it upsamples the source audio to 96KHz for the LDAC encoder. For a 44.1KHz source, encoding 44.1KHz @ 909kbps would provide slightly better sound quality than encoding 96KHz(Oversampled) @ 990kbps. You can opt-out the supported LDAC frequencies and fix the LDAC sample rate to 44.1KHz. If you usually listen to 44.1KHz sources, fixing the LDAC sample rate at 44.1KHz, as is, would provide the best sound quality as well as slightly longer battery time.
+"索尼LDAC支持高达96KHz的采样率。通常大多数源音频是44.1KHz，YouTube音频流也是44.1KHz。Android会自动选择最高的LDAC采样率96KHz，且LDAC编码器将源音频向上采样到96KHz。
+对于44.1KHz的声源，在909kbps@44.1KHz将比在990kbps@96KHz（SRC过采样）提供稍好的音质。您可以选择退出支持的LDAC频率，并将LDAC采样率固定为44.1KHz。如果您通常收听44.1KHz的音源，
+将LDAC采样率固定在44.1KHz能提供最佳的音质以及稍长的电池时间。
 ";
 
 //****************************************
 //********** INPUT USB
 //****************************************
 "kSTR_HELP_USB" =
-"Host Volume Disregard is for PS4/PS5, and 16-bit Mode is for Nintendo Switch. Please note both gaming consoles don't support the sample rates higher than 48KHz.";
+"Host Volume Disregard用于PS4/PS5，16位模式用于任天堂NS。请注意，两款游戏机都不支持高于48KHz的采样率。";
 
 //****************************************
 //********** INPUT MIC
 //****************************************
 "kSTR_HELP_Ambient" =
-"麦克风直通模式使您能够在音乐流和语音通话中听到周围的声音。在打电话的时候，它能帮助你倾听自己的声音。环境电平调整麦克风和音乐之间的混音比。*对于语音通话，环境混音比固定为50:50。";
+"麦克风直通模式（助听器模式）使您能够在听音乐和语音通话时听到周围的声音。在打电话的时候，它能帮助你倾听自己的声音。环境电平调整麦克风和音乐之间的混音比。*对于语音通话，环境混音比固定为50:50。";
 
 //****************************************
 //********** INPUT PRIORITY
@@ -137,9 +136,9 @@ turns 5K off when connected to a charger or PC USB.
 //********** VOLUME OPTION
 //****************************************
 "kSTR_HELP_Volume" =
-"5K绝对音量控制提供了最佳音质的双向关联控制。它始终保持并保证通过蓝牙或USB的全精度音频流。无论哪种方式，通过智能手机源音量或5K设备音量，您都可以毫无损失地控制音量水平。强烈建议打开绝对音量以获得最佳音质。
-5K提供了比其他便携式音频设备更高的输出功率。意外的音量增大可能会损坏你的耳朵和耳蜗。对于高灵敏度IEM，我们强烈建议限制设备体积。
-当两个源设备具有不同的源卷级别时，卷保护工作。当您切换音源时，请检查音量差异，如果音量比前一音量大，请调整音量或设备音量。
+"5K绝对音量控制提供了最佳音质的双向关联控制（数字/模拟电位控制）。它始终保持并保证通过蓝牙或USB的全精度音频流。无论哪种方式，通过智能手机源音量或5K设备音量，您都可以毫无损失地控制音量水平。强烈建议打开绝对音量以获得最佳音质。
+5K提供了比其他便携式音频设备更高的输出功率。意外的音量增大可能会损坏你的听力。对于高灵敏度IEM，我们强烈建议限制设备音量。
+当两个源设备具有不同的电平级别时，建议打开音量限制。当您切换音源时，请检查音量差异，如果音量有差异，请调整源音量或5k音量以保持音量统一。
 
 
 [重要信息]
@@ -152,13 +151,13 @@ turns 5K off when connected to a charger or PC USB.
 //********** DAC/AMP MODE
 //****************************************
 "kSTR_HELP_DacAmp" =
-"5K提供两个DAC配置文件，用于高效的电池时间管理。
-标准为电池时间和音质提供了最佳折衷，而性能则以较少的电池时间获得最佳音质。
-到设备的USB连接会覆盖当前配置文件并将其临时切换到性能。
+"[PROFILE/模式] 5K提供两个DAC配置文件，用于高效的电量管理。
+标准模式为电量和音质提供了最佳折衷，而性能模式则以牺牲电池续航获得最佳音质。
+到设备的USB连接会覆盖当前的配置文件并将其临时切换到性能模式。
 
-正常模式和高模式分别将ES9218p最大输出电平设置为1VRMS和2VRMS。为了防止突然放大，固件被设计成在1V和2V 功放增益变化时补偿音量电平。当您将模式切换到2VRMS时，音量不会有任何差别，但最大音量会延长+6dB。
+[OUTPUT POWER/输出功率] 标准模式和性能模式分别将ES9218p最大输出电平设置为1VRMS和2VRMS。为了防止突然放大功率，固件被设计成在1V和2V功放增益变化时补偿音量电平。当您将模式切换到2VRMS时，音量不会有任何差别，但最大音量会增加+6dB。
 2VRMS具有更高的功放增益，会产生更高的背景噪声并消耗更多的电池时间。1V和2V模式提供相同的音质性能。没有理由将2VRMS用于高灵敏度IEM或耳机。
-对于高灵敏度放音设备，PERFORMANCE+1VRMS提供最低的背景噪声地板。为了获得最佳音质，您需要按照我们的建议设置音源和设备音量。";
+对于高灵敏度	IEM或耳机，性能模式和+1VRMS电平可提供最低的背景噪声。为了获得最佳音质，您可按照我们的建议设置输出模式";
 
 //****************************************
 //********** DAC/AMP FILTER
@@ -179,13 +178,15 @@ turns 5K off when connected to a charger or PC USB.
 "kSTR_HELP_EQ" =
 "5K提供64位双精度10频段均衡器。
 包括EQ在内的所有设置都保存在5K的内部闪存中。5K在启动时重新加载设置，并继续与以前配置的状态相同。
-触摸EQ绘图窗口将显示预设菜单。有十个自定义预置，长按它将保存当前的均衡设置，分别。请注意，EQ自定义预设保存到5K的内部闪存中。";
+触摸EQ绘图窗口将显示预设菜单。有十个自定义预置，长按它将保存当前的均衡设置。请注意，EQ自定义预设保存到5K的内部闪存中。";
 
 //****************************************
 //********** QX-FEED (Crossfeed) Help
 //****************************************
 "kSTR_HELP_QXFEED" =
-"QX-feed, Qudelix Crossfeed, provides an emulated speaker listening environment blending L and R through Qudelix's proprietary algorithm. Even while the crossfeed works, it keeps the original characteristic of source tracks, maintaining the frequency response and loudness. Level 0 means no crossfeed(off), and a higher level would mix up L & R more for the narrower and shorter speaker angle and distance, respectively. The max Level 50 means mono, mixing up L & R by half and half.
+"QX-feed：即qdelix-交叉反馈，通过qdelix的专有算法提供了一个混合L和R的模拟人声监听环境。即使在交叉馈源工作时，它仍然保持了源轨迹的原始特性，保持了频率响应和响度。
+级别0意味着没有交叉反馈（关），数值越高将混合左右声道使得声场越窄。最高等级50意味着双耳单声道输出
+"
 ";
 
 //****************************************
@@ -195,7 +196,7 @@ turns 5K off when connected to a charger or PC USB.
 "启动新固件传输。
 这可能需要10~20秒。
 请把5K放在智能手机旁边。
-如果您遇到任何持续的故障，请将应用程序放在前台并保持屏幕打开，直到固件完全更新。
+如果您遇到任何持续的故障，请将应用程序保持前台并常亮屏幕，直到固件完全更新。
 ";
 
 "kSTR_ALERT_OTA_Prepare_Msg" =
@@ -226,14 +227,14 @@ turns 5K off when connected to a charger or PC USB.
 "kSTR_WARNING_1" = "当没有音频流时，音量（+）按钮被禁用，以防止突然和意外的音量变化。在没有音频流的情况下，使用应用程序滑块调整音量。";
 
 // VOLUME PROTECTTION when switching between two source devices
-"kSTR_WARNING_2" = "音量保护！输出比上一级声音太大。将输出电平调整回最后一个。";
+"kSTR_WARNING_2" = "音量保护触发！输出声音太大，减小音量。";
 
 // APP Disconnection
-"kSTR_WARNING_3" = "Qudelix-5K正在连接另一部智能手机。正在断开当前应用程序连接。";
+"kSTR_WARNING_3" = "Qudelix-5K将连接另一部智能手机。正在断开当前应用程序连接。";
 
 // WARRANTY EXTENSION PROGRAM message
 "kSTR_ALERT_KeyCodeApply_Success" = "此设备的保修期已成功延长。";
-"kSTR_ALERT_KeyCodeApply_Fail" = "验证保修扩展代码失败。请输入用于绑定您设备的有效代码。";
+"kSTR_ALERT_KeyCodeApply_Fail" = "验证保修码失败。请输入用于绑定您设备的有效代码。";
 
 "kSTR_WARNING_MIN_MAX_FMT" = "最小值:%.1f 最大值:%.1f";
 
@@ -242,19 +243,19 @@ turns 5K off when connected to a charger or PC USB.
 //**********************************************************
 "kSTR_MAIL_WarrantyExtension"  =
 "我们为Qudelix-5K提供一年保修。
-保修从与配套移动应用程序的第一次连接开始。5K将存储并保留自应用程序连接绑定后的开始日期。
-此外，我们还为用户提供额外的好处，以延长保修期，同时鼓励对产品提出建议。
-写下你的评论并延长保修期。
+保修从与配套移动应用程序的第一次连接开始计时。5K将存储并保留自应用程序连接绑定后的开始日期。
+此外我们还为用户提供延长保修的途径，鼓励对产品提出建议。
+写下你的评论并获得延长保修。
 
 1.亚马逊评论（最多60天）
 文字（30天）或照片（60天）
-*带着你的任何设备、耳机、和耳放的照片等等。
+*附有你的任何设备，耳机、耳放的照片等。
 （把你的评论截图附在这里。）
 
 
 2.社区评论（任何发烧友社区）
 文字评论（30天）或照片评论（60天）
-*一个高分辨率的照片与您的任何设备，耳机，耳机，放大器。。。
+*一个高分辨率的照片与您的任何设备，耳机，耳机，放大器......
 （在此处添加评论链接。）
 
 
@@ -281,15 +282,15 @@ turns 5K off when connected to a charger or PC USB.
 [IMPORTANT]
 不要卸载应用程序！
 Qudelix移动应用程序与我们的保修服务系统一起处理每个保修过程。在问题解决之前，请保留Qudelix移动应用程序。除非另有说明，否则您可能无法完成保修服务。
-为了加快服务程序，请您尽可能详细地解释这个问题。
+为了加快服务进程，请您尽可能详细地阐述问题。
 （你的问题在这里）
 我们团队将在2~4个工作日内回复您。（不包括周末和节假日）韩国标准时间（UTC+09:00）";
 
 "kSTR_MAIL_WarrantyClose" =
 "你收到新设备了吗？
-要启动新设备的保修，我们需要立案结案。
-如果一切顺利，请给我们发这封邮件来结案。
-更新新设备的保修系统可能需要2~4个工作日。（不包括周末和节假日）韩国标准时间（UTC+09:00）
+要启动新设备的保修，我们需要验证。
+如果一切顺利，请给我们发邮件验证。
+更新新设备的保修期可能需要2~4个工作日。（不包括周末和节假日）韩国标准时间（UTC+09:00）
 ";
 
 //**********************************************************
