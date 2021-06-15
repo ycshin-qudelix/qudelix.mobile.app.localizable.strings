@@ -131,6 +131,8 @@ OFF at Charger or USB DAC
 //****************************************
 //********** VOLUME MAIN
 //****************************************
+"kSTR_ALERT_Input_Priority" =
+"The audio input source priority has been changed.";
 
 //****************************************
 //********** VOLUME OPTION

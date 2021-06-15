@@ -145,6 +145,8 @@ turns 5K off when connected to a charger or PC USB.
 //****************************************
 //********** VOLUME MAIN
 //****************************************
+"kSTR_ALERT_Input_Priority" =
+"The audio input source priority has been changed.";
 
 //****************************************
 //********** VOLUME OPTION
