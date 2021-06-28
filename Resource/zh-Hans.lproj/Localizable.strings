@@ -162,6 +162,20 @@ OFF at Charger or USB DAC
 对于高灵敏度	IEM或耳机，性能模式和+1VRMS电平可提供最低的背景噪声。为了获得最佳音质，您可按照我们的建议设置输出模式";
 
 //****************************************
+//********** DAC/AMP QxOver
+//****************************************
+"kSTR_HELP_QxOver" =
+"QX-over is an active digital crossover with Qudelix's proprietary DSP technology. Qudelix-5K automatically detects QX-over Earphones, processes the stereo input, and outputs Stereo Low and High band independently to earphones units through 4-channel DAC/AMP.
+
+You can adjust the Low Band Gain 0 to -6dB and the High Band Gain 0 to +6dB. For real-world sound and music tracks, the filtered High Band signal is very tiny. Thus, we can boost up the High Band signal by 2x.
+
+Low Gain=0dB & High Gain=+6dB recommended.
+
+*Please note that if you run any frequency sweep measurement, you need to set the High Band gain to 0dB. The clipping would occur at the High Band unless otherwise.
+
+Furthermore, you can adjust and compensate the L and R SPL difference with the TRIM settings. Please refer to the below link for more information.";
+
+//****************************************
 //********** DAC/AMP FILTER
 //****************************************
 
@@ -188,7 +202,6 @@ OFF at Charger or USB DAC
 "kSTR_HELP_QXFEED" =
 "QX-feed：即qdelix-交叉反馈，通过qdelix的专有算法提供了一个混合L和R的模拟人声监听环境。即使在交叉馈源工作时，它仍然保持了源轨迹的原始特性，保持了频率响应和响度。
 级别0意味着没有交叉反馈（关），数值越高将混合左右声道使得声场越窄。最高等级50意味着双耳单声道输出
-"
 ";
 
 //****************************************

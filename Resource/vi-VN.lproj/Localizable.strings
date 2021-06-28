@@ -176,6 +176,20 @@ NORMAL and HIGH mode set the ES9218p maximum output level as 1VRMS and 2VRMS, re
 For high sensitivity IEMS, PERFORMANCE + 1VRMS provides the lowest background noise floor. For the best sound quality, you will need to set the source and device volume as we recommend.";
 
 //****************************************
+//********** DAC/AMP QxOver
+//****************************************
+"kSTR_HELP_QxOver" =
+"QX-over is an active digital crossover with Qudelix's proprietary DSP technology. Qudelix-5K automatically detects QX-over Earphones, processes the stereo input, and outputs Stereo Low and High band independently to earphones units through 4-channel DAC/AMP.
+
+You can adjust the Low Band Gain 0 to -6dB and the High Band Gain 0 to +6dB. For real-world sound and music tracks, the filtered High Band signal is very tiny. Thus, we can boost up the High Band signal by 2x.
+
+Low Gain=0dB & High Gain=+6dB recommended.
+
+*Please note that if you run any frequency sweep measurement, you need to set the High Band gain to 0dB. The clipping would occur at the High Band unless otherwise.
+
+Furthermore, you can adjust and compensate the L and R SPL difference with the TRIM settings. Please refer to the below link for more information.";
+
+//****************************************
 //********** DAC/AMP FILTER
 //****************************************
 
