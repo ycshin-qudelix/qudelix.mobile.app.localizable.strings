@@ -39,9 +39,9 @@
 "安全警告
 
 谨记高温是锂电池的头号终结者！电池+1℃，寿命-1s。耗子尾汁！
-不要将电池置于高温环境中，使用汽车aux-in时不要把5K留在车里。阳光下的车内平均温度至50摄氏度以上，高温不仅会缩短电池的使用寿命，甚至会导致电池发生严重火灾。
-请使用5V（1~2A）标准充电器或PC USB端口仅为5K充电。有许多快速充电器和USB-C 9V充电器没有通过任何安全认证，那会对5k造成永久性的伤害。
-请注意，可充电锂离子聚合物电池具有潜在的危险性，使用不当可能会造成严重的火灾、人身和财产损失。
+不要将电池置于高温环境中，使用汽车aux-in时不要把5K留在车里。阳光下的车内平均温度达到50摄氏度以上，高温不仅会缩短电池的使用寿命，甚至会导致电池起火发生火灾。
+请使用5V（1~2A）标准的充电器或电脑USB端口给5K充电。有许多快速充电器和USB-C 9V充电器没有通过任何安全认证，使用其充电会对5k造成永久性的伤害。
+注意！锂离子聚合物电池具有潜在的危险性，使用不当可能会造成严重的火灾，导致人身和财产的损失！
 ";
 
 //****************************************
@@ -69,27 +69,27 @@ OFF at Charger or USB DAC
 //********** DEVICE MISC
 //****************************************
 "kSTR_HELP_BTN" =
-"按钮分别命名为蓝色上键（BU）、蓝色下键（BL）、红色上键（RU）和红色下键（RL）
+"按钮分别命名为蓝色上键（B U）、蓝色下键（B L）、红色上键（R U）和红色下键（R L）
 
-[默认按钮行为]
+〖• • •默认按钮行为• • •〗
 
-蓝色上键（BU，突起按键）
-  配对模式（长按3秒）
-  播放/暂停（单击一次）
-  下一曲目（双击）
-  接听来电（单键）
+『 蓝色上键---B U---✳上面有突起的按钮 』
+       配对模式  （长按3秒）
+       播放/暂停 （单   击）
+       下一曲目  （双   击）
+       接听来电  （单   击）
 
-蓝色下键（BL）
-  电源开/关（长3秒）
-  上一曲目（双击）
+『 蓝色下键---B L--- 』
+       电源开/关 （长按3秒）
+       上一曲目  （双   击）
 
-红色上键（RU）
-  增大音量
+『 红色上键---R U--- 』
+       增大音量  （单/连击）
 
-红色下键（RL）
-  降低音量
+『 红色下键---R L--- 』
+       降低音量  （单/连击）
 
-（可选）可以启用按两个按钮的电源开/关快捷方式，还可以映射单个蓝色下键（BL）按钮以导航到上一个曲目。";
+（可选）启用同时按两个按钮的电源开/关快捷方式，还可以映射单个蓝色下键（BL）按钮以导航到上一曲目。";
 
 //****************************************
 //********** INPUT STATE
@@ -116,7 +116,7 @@ OFF at Charger or USB DAC
 //********** INPUT USB
 //****************************************
 "kSTR_HELP_USB" =
-"Host Volume Disregard用于PS4/PS5，16位模式用于任天堂NS。请注意，两款游戏机都不支持高于48KHz的采样率。";
+"Host Volume Disregard（主机音量忽略）用于PS4/PS5设备，16位模式用于任天堂的Switch游戏机。请注意，两款游戏设备都不支持高于48KHz采样率的输出。";
 
 //****************************************
 //********** INPUT MIC
@@ -165,15 +165,11 @@ OFF at Charger or USB DAC
 //********** DAC/AMP QxOver
 //****************************************
 "kSTR_HELP_QxOver" =
-"QX-over is an active digital crossover with Qudelix's proprietary DSP technology. Qudelix-5K automatically detects QX-over Earphones, processes the stereo input, and outputs Stereo Low and High band independently to earphones units through 4-channel DAC/AMP.
+"QX-over是一款采用Qudelix专有DSP技术的有源数字分频器。Qudelix-5K会自动识别支持QX-over的分频双单元耳机并处理立体声信号输入，通过4通道DAC/AMP将立体声的低频段和高频段独立适配输出到耳机单元。
+您可以将低频段增益从0调整至-6dB，将高频段增益从0调整至+6dB。对于原本的声音和乐曲，滤波后的高频信号可能会非常微小。 因此，我们可以将高频信号提升2倍。
 
-You can adjust the Low Band Gain 0 to -6dB and the High Band Gain 0 to +6dB. For real-world sound and music tracks, the filtered High Band signal is very tiny. Thus, we can boost up the High Band signal by 2x.
-
-Low Gain=0dB & High Gain=+6dB recommended.
-
-*Please note that if you run any frequency sweep measurement, you need to set the High Band gain to 0dB. The clipping would occur at the High Band unless otherwise.
-
-Furthermore, you can adjust and compensate the L and R SPL difference with the TRIM settings. Please refer to the below link for more information.";
+*请注意，如果您要运行频率的扫描检测，需要将高频段增益设置为0dB。除另有说明否则削波将发生在高频段。
+此外，您可通过微调设置来调节左声道和右声道的声压差异。更多信息请参考下面的链接。";
 
 //****************************************
 //********** DAC/AMP FILTER
