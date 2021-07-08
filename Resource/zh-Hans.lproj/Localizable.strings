@@ -138,15 +138,17 @@ OFF at Charger or USB DAC
 //********** VOLUME OPTION
 //****************************************
 "kSTR_HELP_Volume" =
-"5K绝对音量控制提供了最佳音质的双向关联控制（数字/模拟电位控制）。它始终保持并保证通过蓝牙或USB的全精度音频流。无论哪种方式，通过智能手机源音量或5K设备音量，您都可以毫无损失地控制音量水平。强烈建议打开绝对音量以获得最佳音质。
-5K提供了比其他便携式音频设备更高的输出功率。意外的音量增大可能会损坏你的听力。对于高灵敏度IEM，我们强烈建议限制设备音量。
-当两个源设备具有不同的电平级别时，建议打开音量限制。当您切换音源时，请检查音量差异，如果音量有差异，请调整源音量或5k音量以保持音量统一。
+"5K Absolute Volume Control offers 2-way associative control for optimal sound quality. It always keeps and guarantees the full precision audio stream over Bluetooth or USB. In either way, you can control the loudness level via smartphone source volume or 5K device volume without any loss.
 
+*Android Users to check the 'Disable absolute volume' Off at the developer options menu.
 
-[重要信息]
+You can check the ABS volume work or not by checking the input RMS level, Input --> State --> RMS Level. At any volume level, you should get a maximum input RMS level always.
 
-与PC USB和iOS USB（通过摄像头套件）不同，Android USB Audio不支持绝对音量控制。随着音量的降低，Android源音量会缩小PCM样本。为了获得Android USB音频的最佳音质，您需要将源音量保持在最大值。
-由于上述原因，在Android USB和蓝牙之间切换音频时，音量保护可能无法正常工作。";
+The 5K provides a higher output power than other portable audio devices. An accidental volume up may damage your ear and IEMs. For high-sensitivity IEMs, we strongly recommend limiting the device volume.
+
+[IMPORTANT]
+
+Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support Absolute Volume Control. The Android Source Volume scales down the PCM sample as the volume gets lowered. You will need to keep the source volume at maximum for the best sound quality with Android USB Audio.";
 
 
 //****************************************
@@ -318,4 +320,9 @@ Qudelix移动应用程序与我们的保修服务系统一起处理每个保修�
 "kSTR_HELP_WarrantyClose" =
 "已连接的设备不可再用于保修索赔。该装置已有缺陷或损坏。我们建议您更换一个新的或提交退款。";
 
+//****************************************
+//********** APP STORE UPDATE
+//****************************************
+"kSTR_ALERT_AppStoreUpdate_Title" = "Updates Available";
+"kSTR_ALERT_AppStoreUpdate_Msg" = "The app v%@ is available.\nDo you want to install the updates now?";
 

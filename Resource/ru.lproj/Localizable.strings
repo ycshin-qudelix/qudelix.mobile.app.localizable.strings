@@ -152,15 +152,17 @@ turns 5K off when connected to a charger or PC USB.
 //********** VOLUME OPTION
 //****************************************
 "kSTR_HELP_Volume" =
-"Абсолютный регулятор громкости 5K предлагает 2-полосное ассоциативное управление для оптимального качества звука. Он всегда сохраняет и гарантирует полную точность аудиопотока через Bluetooth или USB. В любом случае вы можете управлять уровнем громкости без потерь либо на смартфоне, либо на устройстве 5К. Настоятельно рекомендуется включить абсолютную громкость для наилучшего качества звука.
+"5K Absolute Volume Control offers 2-way associative control for optimal sound quality. It always keeps and guarantees the full precision audio stream over Bluetooth or USB. In either way, you can control the loudness level via smartphone source volume or 5K device volume without any loss.
 
-5K обеспечивает более высокую выходную мощность, чем другие портативные аудиоустройства. Случайное увеличение громкости может повредить ваше ухо и наушники (IEM). Для высокочувствительных наушников мы настоятельно рекомендуем ограничить громкость устройства.
+*Android Users to check the 'Disable absolute volume' Off at the developer options menu.
 
-Защита громкости cрабатывает, когда два устройства-источника имеют разный уровень громкости. Когда вы переключаете источник звука, 5K проверяет разницу в громкости и регулирует громкость устройства, если уровень громкости намного выше предыдущего уровня.
+You can check the ABS volume work or not by checking the input RMS level, Input --> State --> RMS Level. At any volume level, you should get a maximum input RMS level always.
 
-[ВАЖНО]
-В отличие от USB на ПК и USB на iOS (через Camera Kit), Android USB Audio не поддерживает абсолютную регулировку громкости. Громкость источника на Android уменьшает сэмплирование импульсно-кодовой модуляции при её уменьшении.  Для наилучшего качества звука с аудиотракта USB Android необходимо поддерживать максимальную громкость источника. И по вышеуказанной причине защита громкости может не срабатывать должным образом при переключении звука между USB Android и Bluetooth
-";
+The 5K provides a higher output power than other portable audio devices. An accidental volume up may damage your ear and IEMs. For high-sensitivity IEMs, we strongly recommend limiting the device volume.
+
+[IMPORTANT]
+
+Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support Absolute Volume Control. The Android Source Volume scales down the PCM sample as the volume gets lowered. You will need to keep the source volume at maximum for the best sound quality with Android USB Audio.";
 
 //****************************************
 //********** DAC/AMP MODE
@@ -355,4 +357,10 @@ Furthermore, you can adjust and compensate the L and R SPL difference with the T
 
 "kSTR_HELP_WarrantyClose" =
 "Подключенное устройство больше не подлежит гарантийной претензии. Устройство было заявлено как неисправное или поврежденное. Мы заменили устройство на новое или вернули деньги.";
+
+//****************************************
+//********** APP STORE UPDATE
+//****************************************
+"kSTR_ALERT_AppStoreUpdate_Title" = "Updates Available";
+"kSTR_ALERT_AppStoreUpdate_Msg" = "The app v%@ is available.\nDo you want to install the updates now?";
 

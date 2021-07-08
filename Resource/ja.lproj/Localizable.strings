@@ -145,18 +145,17 @@ You can opt-out the codecs to get specific one active. The source device may rem
 //********** VOLUME OPTION
 //****************************************
 "kSTR_HELP_Volume" =
-"5K Absolute Volume Control offers 2-way associative control for optimal sound quality. It always keeps and guarantees the full precision audio stream over Bluetooth or USB. In either way, via smartphone source volume or 5K device volume, you can control the loudness level without any loss. It is highly recommended to turn on the Absolute Volume for the best sound quality.
+"5K Absolute Volume Control offers 2-way associative control for optimal sound quality. It always keeps and guarantees the full precision audio stream over Bluetooth or USB. In either way, you can control the loudness level via smartphone source volume or 5K device volume without any loss.
 
-The 5K provides a higher output power than other portable audio devices. An accidental volume up may damage your ear and IEMs. For high sensitivity IEMs, we strongly recommend limiting the device volume.
+*Android Users to check the 'Disable absolute volume' Off at the developer options menu.
 
-The Volume Protection works when two source devices have different source volume level. When you switch the audio source, 5K check the volume differences and adjust the volume the device volume if the level is too louder than the previous level.
+You can check the ABS volume work or not by checking the input RMS level, Input --> State --> RMS Level. At any volume level, you should get a maximum input RMS level always.
 
+The 5K provides a higher output power than other portable audio devices. An accidental volume up may damage your ear and IEMs. For high-sensitivity IEMs, we strongly recommend limiting the device volume.
 
 [IMPORTANT]
 
-Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support the Absolute Volume Control. The Android Source Volume scales down the PCM sample as the volume gets lowered. For the best sound quality with Android USB Audio, you will need to keep the source volume at maximum.
-
-And due to the above reason, the Volume Protection may not work as intended when switching audio between Android USB and Bluetooth.";
+Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support Absolute Volume Control. The Android Source Volume scales down the PCM sample as the volume gets lowered. You will need to keep the source volume at maximum for the best sound quality with Android USB Audio.";
 
 
 //****************************************
@@ -355,4 +354,9 @@ Qudelix mobile app handles every warranty process along with our warranty servic
 "kSTR_HELP_WarrantyClose" =
 "The connected device is no longer available for the warranty claim. The device has been claimed as defected or damaged. We replaced the device with a new unit or refunded.";
 
+//****************************************
+//********** APP STORE UPDATE
+//****************************************
+"kSTR_ALERT_AppStoreUpdate_Title" = "Updates Available";
+"kSTR_ALERT_AppStoreUpdate_Msg" = "The app v%@ is available.\nDo you want to install the updates now?";
 
