@@ -38,7 +38,7 @@
 "kSTR_HELP_Battery" =
 "安全警告
 
-谨记高温是锂电池的头号终结者！电池+1℃，寿命-1s。耗子尾汁！
+谨记高温是锂电池的头号终结者！电池+1℃，寿命-1s。耗子尾汁！若把握不住，耗子尾汁！（此处由FLYERS意译）
 不要将电池置于高温环境中，使用汽车aux-in时不要把5K留在车里。阳光下的车内平均温度达到50摄氏度以上，高温不仅会缩短电池的使用寿命，甚至会导致电池起火发生火灾。
 请使用5V（1~2A）标准的充电器或电脑USB端口给5K充电。有许多快速充电器和USB-C 9V充电器没有通过任何安全认证，使用其充电会对5k造成永久性的伤害。
 注意！锂离子聚合物电池具有潜在的危险性，使用不当可能会造成严重的火灾，导致人身和财产的损失！
@@ -138,17 +138,17 @@ OFF at Charger or USB DAC
 //********** VOLUME OPTION
 //****************************************
 "kSTR_HELP_Volume" =
-"5K Absolute Volume Control offers 2-way associative control for optimal sound quality. It always keeps and guarantees the full precision audio stream over Bluetooth or USB. In either way, you can control the loudness level via smartphone source volume or 5K device volume without any loss.
+"5K绝对音量控制能提供在数字电位与模拟电位两种音量调节逻辑下的最佳音质效果，其确保了音频信号经蓝牙或USB传输后的高精准度。无论使用哪种传输方式，您都可以调节智能手机等源设备的输出音量或5K功放音量从而控制音量值，且不会带来音频讯号的损失。
 
-*Android Users to check the 'Disable absolute volume' Off at the developer options menu.
+*Android用户可以在开发者选项菜单中勾选使用“禁用绝对音量”。
 
-You can check the ABS volume work or not by checking the input RMS level, Input --> State --> RMS Level. At any volume level, you should get a maximum input RMS level always.
+您可以通过检查输入RMS电平来判断ABS音量调节器是否正常运行，input-->State-->RMS level 来检查ABS音量调节器数值。在任何5k设备的音量级别您都应该始终获得来自输入端的最大RMS级别。（ABS Volume实现了Linux设备快速的音量调节功能）
 
-The 5K provides a higher output power than other portable audio devices. An accidental volume up may damage your ear and IEMs. For high-sensitivity IEMs, we strongly recommend limiting the device volume.
+5K提供了比其他便携式音频设备更高的输出功率，突然的音量增大可能会损坏你的听力和设备。对于高灵敏度IEM，我们强烈建议限制音量值。
 
-[IMPORTANT]
+[重要告知]
 
-Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support Absolute Volume Control. The Android Source Volume scales down the PCM sample as the volume gets lowered. You will need to keep the source volume at maximum for the best sound quality with Android USB Audio.";
+与PC USB和iOS USB（通过摄像头套件实现音频传输）不同，Android USB Audio不支持绝对音量控制，随着Android发射音频音量的降低，Android会缩小音量源的PCM采样值（劣化音频精度）。若使用Android USB音频您需要保持Android源音量在最大值，以获得最佳音质。";
 
 
 //****************************************
@@ -206,7 +206,7 @@ Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support
 //********** DEVICE FW UPDATE
 //****************************************
 "kSTR_ALERT_OTA_Prepare_SubTitle" =
-"启动新固件传输。
+"正在开始传输新版固件。
 这可能需要10~20秒。
 请把5K放在智能手机旁边。
 如果您遇到任何持续的故障，请将应用程序保持前台并常亮屏幕，直到固件完全更新。
@@ -216,7 +216,7 @@ Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support
 "正在启动......";
 
 "kSTR_ALERT_OTA_Progress_SubTitle" =
-"在5K接收并验证固件之前，它不会更新当前固件。
+"在5K完整接收并验证固件之前，它不会更新当前固件。
 
 如果失败，请再试一次。
 如果您遇到任何持续的故障，请打开前台程序并保持屏幕打开，直到固件完全更新。
@@ -229,7 +229,7 @@ Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support
 "请稍等片刻。";
 
 "kSTR_ALERT_OTA_Complete_Msg" =
-"新固件已成功更新！\请重新启动应用程序。";
+"新版固件已成功安装！\请重启本应用程序。";
 
 
 //****************************************
@@ -237,7 +237,7 @@ Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support
 //****************************************
 
 // VOLUME (+) Button not available when no audio
-"kSTR_WARNING_1" = "当没有音频流时，音量（+）按钮被禁用，以防止突然和意外的音量变化。在没有音频流的情况下，使用应用程序滑块调整音量。";
+"kSTR_WARNING_1" = "当没有音频流时，音量（+）按钮被禁用，以防止突然和意外的音量变化。在没有音频流的情况下，可使用应用程序滑块调整音量。";
 
 // VOLUME PROTECTTION when switching between two source devices
 "kSTR_WARNING_2" = "音量保护触发！输出声音太大，减小音量。";
