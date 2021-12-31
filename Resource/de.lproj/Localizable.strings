@@ -10,125 +10,125 @@
 //********** DEVICE DEVICE
 //****************************************
 "kSTR_HELP_WarrantyCampaign" =
-"Write a review and get your warranty extended!
-Would you mind taking a few minutes to write a review for Qudelix-5K, please? Your comments and reviews help us to improve 5K better. Please share your thought on 5K with others at Amazon or any Audio Communities. We provide additional warranty extension (up to 8 months) on any published reviews at Amazon or Audio Communities.
+"Schreiben Sie eine Bewertung und erhalten Sie Ihre Garantieverlängerung!
+Würden Sie sich bitte ein paar Minuten Zeit nehmen, um eine Bewertung für Qudelix-5K zu schreiben? Ihre Kommentare und Bewertungen helfen uns, 5K zu verbessern. Bitte teilen Sie Ihre Meinung über 5K mit anderen bei Amazon oder anderen Audio Communities. Wir bieten eine zusätzliche Garantieverlängerung (bis zu 8 Monate) auf alle veröffentlichten Rezensionen bei Amazon oder Audio Communities.
 ";
 
 //****************************************
 //********** DEVICE SEARCH
 //****************************************
 "kSTR_HELP_Connection" =
-"5K allows the APP connection with one device at a time. Remove the existing APP connection before making a new connection with another device.
+"5K erlaubt die App-Verbindung mit jeweils einem Gerät. Entfernen Sie die bestehende App-Verbindung, bevor Sie eine neue Verbindung mit einem anderen Gerät herstellen.
 
-The APP link is different from the BR/EDR link for A2DP. To stream audio, connect(pair) 5K to the smartphone first. (iOS--> Settings --> Bluetooth --> MY DEVICES)
+Die App-Verbindung unterscheidet sich von der BR/EDR-Verbindung für A2DP. Um Audio zu streamen, verbinden (koppeln) Sie die 5K zunächst mit dem Smartphone. (iOS--> Einstellungen --> Bluetooth --> MEINE GERÄTE)
 
 
-[Trouble Shooting]
+[Fehlerbehebung]
 
-If you can't connect your 5K with the app, please follow the steps below.
+Wenn Sie Ihr 5K nicht mit der App verbinden können, führen Sie bitte die folgenden Schritte aus.
 
-1. Remove all devices from the system Bluetooth paired device list
-2. Pair 5K with the smartphone
-3. Uninstall / Install Qudelix mobile app
-4. Reboot the smartphone
+1. Entfernen Sie alle Geräte aus der Liste der mit dem System gekoppelten Bluetooth-Geräte.
+2. Koppeln Sie das 5K mit dem Smartphone
+3. Deinstallieren/Installieren Sie die Qudelix Mobile App
+4. Starten Sie das Smartphone neu
 ";
 
 //****************************************
 //********** DEVICE BATTERY
 //****************************************
 "kSTR_HELP_Battery" =
-"SAFETY WARNING
+"SICHERHEITSWARNUNG
 
-Always remember that heat is the number one enemy of LiPo batteries. The hotter your batteries get, the shorter their lifespan will be.
+Denken Sie immer daran, dass Hitze der größte Feind von LiPo-Akkus ist. Je heißer Ihre Akkus werden, desto kürzer ist ihre Lebensdauer.
 
-Do not leave the battery in a hot temperature environment. Especially for the use case with car aux-in, do not leave the 5K in a car.  If the car is parked in the sun, the average temperature inside rises. It could reach nearly 120 ~160 degrees Fahrenheit. It would kill not only the battery life but also cause the battery in serious FIRE HAZARD.
+Lassen Sie den Akku nicht in einer Umgebung mit hohen Temperaturen liegen. Lassen Sie den 5K-Akku nicht im Auto liegen, vor allem nicht bei der Verwendung mit dem Auto-Aux-In. Wenn das Auto in der Sonne geparkt ist, steigt die durchschnittliche Temperatur im Innenren an. Sie kann bis zu 50-70 Grad Celsius erreichen. Das würde nicht nur die Lebensdauer der Batterie verkürzen, sondern auch eine ernsthafte BRANDGEFAHR für die Batterie bedeuten.
 
-Please use 5V(1~2A) standard charger or PC USB port only for charging 5K. There are many fast chargers and USB-C 9V chargers that don't pass through any safety certifications. Those would cause permanent damage to the unit.
+Bitte verwenden Sie ausschließlich ein 5V (1-2A) Standard-Ladegerät oder einen PC-USB-Anschluss zum Aufladen von 5K. Es gibt viele Schnellladegeräte und USB-C 9V-Ladegeräte, die keine Sicherheitszertifizierung durchlaufen. Diese würden das Gerät dauerhaft beschädigen.
 
-Please note that, if improperly used, Rechargeable Lithium-ion polymer batteries are potentially hazardous and can present a severe FIRE HAZARD, SERIOUS INJURY, and PROPERTY DAMAGE.
+Bitte beachten Sie, dass wiederaufladbare Lithium-Ionen-Polymer-Akkus bei unsachgemäßer Verwendung potenziell gefährlich sind und eine ernsthafte BRANDGEFAHR, SCHWERWIEGENDE VERLETZUNGEN und EIGENTUMSSCHÄDEN verursachen können.
 ";
 
 //****************************************
 //********** DEVICE POWER
 //****************************************
 "kSTR_HELP_AutoPower" =
-"ON at USB DAC
-turns 5K on when connected to PC as a USB DAC.
+"EIN bei USB-DAC
+schaltet den 5K ein, wenn er als USB-DAC an einen PC angeschlossen wird.
 
-OFF at Charger
-turns 5K off when connected to a charger.
+AUS bei Ladegerät
+schaltet den 5K aus, wenn er an ein Ladegerät angeschlossen wird.
 
-ON/OFF upon Charger
-turns 5K on or off, respectively, upon the connection or disconnection to a USB charger.
+EIN/AUS bei Ladegerät
+schaltet den 5K ein bzw. aus, wenn er an ein USB-Ladegerät angeschlossen bzw. von diesem getrennt wird.
 
-OFF at Charger or USB DAC
-turns 5K off when connected to a charger or PC USB.
+AUS bei Ladegerät oder USB-DAC
+schaltet den 5K aus, wenn er an ein Ladegerät oder einen PC USB angeschlossen ist.
 ";
 
 "kSTR_HELP_Charger" =
-"The 5K built-in charger can be disabled manually. For iOS USB Audio through Camera Kit, you need to disable the 5K built-in charger since iOS device limits the current up to 100mA.
+"Das eingebaute Ladegerät des 5K kann manuell deaktiviert werden. Für iOS USB Audio über Camera Kit müssen Sie das eingebaute Ladegerät des 5K deaktivieren, da das iOS-Gerät den Strom auf 100 mA begrenzt.
 
-To disable the charger, 5K should have the battery at least more than 20%. The charger will get back to enabled if the battery gets lower than 20%.";
+Um das Ladegerät zu deaktivieren, sollte der Akku des 5K mindestens zu mehr als 20% geladen sein. Das Ladegerät wird wieder aktiviert, wenn der Akkuladestand unter 20% fällt.";
 
 //****************************************
 //********** DEVICE MISC
 //****************************************
 "kSTR_HELP_BTN" =
-"The buttons are named as BLUE Upper (BU), BLUE Lower (BL), RED Upper (RU), and RED Lower (RL), respectively.
+"Die Tasten heißen BLUE Upper (BU), BLUE Lower (BL), RED Upper (RU) bzw. RED Lower (RL).
 
-[Default Button Behavior]
+[Standardverhalten der Tasten]
 
-BLUE Upper (BU, Notched)
-   Pairing Mode (long 3 sec)
-   Play/Pause (single click)
-   Next Track (double click)
-   Answering Incoming Call (single click)
+BLUE Upper (BU, gekerbt)
+   Pairing-Modus (3 Sekunden lang)
+   Wiedergabe/Pause (Einfachklick)
+   Nächster Titel (Doppelklick)
+   Eingehenden Anruf entgegennehmen (Einfachklick)
 
 BLUE Lower (BL)
-   Power On/Off (long 3 sec)
-   Previous Track (double click)
+   Ein-/Ausschalten (3 Sek. lang)
+   Vorheriger Titel (Doppelklick)
 
 RED Upper (RU)
-   Volume Up
+   Lauter
 
 RED Lower (RL)
-   Volume Down
+   Leiser
 
-Optionally, the Power On/Off shortcut with the two-button press can be enabled. Single BLUE Lower (BL) press can be mapped for navigating to the previous track.";
+Optional kann die Ein-/Aus-Funktion durch das Drücken von zwei Tasten aktiviert werden. Ein einzelner Druck auf die BLUE Lower (BL) Taste kann zum Zurückspringen zum vorherigen Titel belegt werden.";
 
 //****************************************
 //********** INPUT STATE
 //****************************************
 "kSTR_HELP_Ldac" =
-"In general, LDAC 606/660kbps or higher provides excellent sound quality comparable to the wired interface. If you don't get sufficient sound quality, please set a higher LDAC bit rate in the Android Developer Options menu.
+"Im Allgemeinen bietet LDAC 606/660kbps oder höher eine hervorragende Klangqualität, die mit der kabelgebundenen Schnittstelle vergleichbar ist. Wenn Sie keine ausreichende Tonqualität erhalten, stellen Sie bitte eine höhere LDAC-Bitrate im Android-Entwickleroptionen-Menü ein.
 
-Some specific Android smartphones may not be able to provide reliable 990kbps streaming. Turning off the smartphone display, or using 5GHz WiFi might help the LDAC streamed a little better.
+Einige Android-Smartphones sind möglicherweise nicht in der Lage, ein zuverlässiges Streaming mit 990kbps zu gewährleisten. Das Ausschalten des Smartphone-Displays oder die Verwendung von 5-GHz-WiFi könnte das LDAC-Streaming ein wenig verbessern.
 
-The 660kbps is the best trade-off for reliable streaming and sound quality. In most cases, you would get good enough sound quality with LDAC 660kbps.";
+Die 660kbps sind der beste Kompromiss für zuverlässiges Streaming und Klangqualität. In den meisten Fällen ist die Klangqualität mit LDAC 660kbps völlig ausreichend.";
 
 //****************************************
 //********** INPUT CODEC
 //****************************************
 "kSTR_HELP_CODEC" =
-"Only the Bluetooth source devices (smartphone or PC) have a privilege to choose the codec. 5K is a Bluetooth sink device and provides the supported codec list to the source device at the beginning.
+"Nur die Bluetooth-Quellgeräte (Smartphone oder PC) dürfen den Codec auswählen. 5K ist ein Bluetooth-Empfangsgerät und stellt dem Quellgerät zu Beginn die Liste der unterstützten Codecs zur Verfügung.
 
-You can opt-out the codecs to get specific one active. The source device may remember the codec list received at the prior connection. You may need to remove Qudelix-5K from the system Bluetooth paired list and make it paired again after making any change in the codec option.";
+Sie können die Codecs abwählen, um einen bestimmten Codec zu aktivieren. Das Quellgerät kann die Codec-Liste speichern, die es bei der vorherigen Verbindung erhalten hat. Möglicherweise müssen Sie Qudelix-5K aus der Bluetooth-Kopplungsliste des Systems entfernen und erneut koppeln, nachdem Sie die Codec-Option geändert haben.";
 
 "kSTR_HELP_LDAC_FS" =
-"Sony LDAC supports the sample rate up to 96KHz. Typically, most source audio is 44.1KHz, and YouTube Audio streaming is 44.1KHz as well. Android automatically selects the highest LDAC sample rate, 96KHz, and it upsamples the source audio to 96KHz for the LDAC encoder. For a 44.1KHz source, encoding 44.1KHz @ 909kbps would provide slightly better sound quality than encoding 96KHz(Oversampled) @ 990kbps. You can opt-out the supported LDAC frequencies and fix the LDAC sample rate to 44.1KHz. If you usually listen to 44.1KHz sources, fixing the LDAC sample rate at 44.1KHz, as is, would provide the best sound quality as well as slightly longer battery time.
+"Sony LDAC unterstützt eine Abtastrate von bis zu 96KHz. Normalerweise haben die meisten Audioquellen 44,1 KHz, und auch YouTube-Audiostreaming hat 44,1 KHz. Android wählt automatisch die höchste LDAC-Abtastrate, nämlich 96 KHz, aus und rechnet die Audioquelle für den LDAC-Encoder auf 96 KHz hoch. Bei einer 44,1-KHz-Quelle würde die Kodierung von 44,1 KHz mit 909 Kbps eine etwas bessere Klangqualität liefern als die Kodierung von 96 KHz (Oversampling) mit 990 Kbps. Sie können die unterstützten LDAC-Frequenzen abwählen und die LDAC-Abtastrate auf 44,1KHz festlegen. Wenn Sie in der Regel 44,1 KHz-Quellen hören, bietet die Einstellung der LDAC-Abtastrate auf 44,1 KHz die beste Klangqualität und eine etwas längere Batterielaufzeit.
 ";
 
 //****************************************
 //********** INPUT USB
 //****************************************
 "kSTR_HELP_USB" =
-"Host Volume Disregard is for PS4/PS5, and 16-bit Mode is for Nintendo Switch. Please note both gaming consoles don't support the sample rates higher than 48KHz.";
+"Host Volume Disregard ist für PS4/PS5, und 16-bit Mode ist für Nintendo Switch. Bitte beachten Sie, dass beide Spielkonsolen keine höheren Abtastraten als 48KHz unterstützen.";
 
 //****************************************
 //********** INPUT MIC
 //****************************************
 "kSTR_HELP_Ambient" =
-"Microphone Pass-Through mode enables you to hear the ambient sound when in the music streaming and voice call. During the phone call, it helps you to listen to your voice. AMBIENT LEVEL adjust the mixup ratio between Microphone and Music. *For Voice Call, the ambient mixup ratio is fixed to 50:50.
+"Der Mikrofon-Pass-Through-Modus ermöglicht es Ihnen, die Umgebungsgeräusche beim Musikstreaming und bei Sprachanrufen zu hören. Während des Telefongesprächs hilft es Ihnen, Ihre Stimme zu hören. AMBIENT LEVEL stellt das Mischungsverhältnis zwischen Mikrofon und Musik ein. *Für Sprachanrufe ist das Mischungsverhältnis der Umgebungsgeräusche auf 50:50 festgelegt.
 ";
 
 //****************************************
@@ -139,54 +139,54 @@ You can opt-out the codecs to get specific one active. The source device may rem
 //********** VOLUME MAIN
 //****************************************
 "kSTR_ALERT_Input_Priority" =
-"The audio input source priority has been changed.";
+"Die Priorität der Audio-Eingangsquelle wurde geändert.";
 
 //****************************************
 //********** VOLUME OPTION
 //****************************************
 "kSTR_HELP_Volume" =
-"5K Absolute Volume Control offers 2-way associative control for optimal sound quality. It always keeps and guarantees the full precision audio stream over Bluetooth or USB. In either way, you can control the loudness level via smartphone source volume or 5K device volume without any loss.
+"5K Absolute Volume Control bietet eine assoziative 2-Wege-Steuerung für optimale Klangqualität. Sie ermöglicht und gewährleistet stets einen hochpräzisen Audio-Stream über Bluetooth oder USB. In beiden Fällen kann die Lautstärke über die Lautstärke der Smartphone-Quelle oder des 5K-Gerätes verlustfrei geregelt werden.
 
-*Android Users to check the 'Disable absolute volume' Off at the developer options menu.
+*Android-Benutzer müssen die Option "Absolute Lautstärke deaktivieren" im Menü der Entwickleroptionen deaktivieren.
 
-You can check the ABS volume work or not by checking the input RMS level, Input --> State --> RMS Level. At any volume level, you should get a maximum input RMS level always.
+Sie können überprüfen, ob die ABS-Lautstärke funktioniert oder nicht, indem Sie den Eingangs-RMS-Pegel überprüfen, Input --> State --> RMS Level. Bei jeder Lautstärke sollten Sie immer einen maximalen Eingangs-RMS-Pegel erhalten.
 
-The 5K provides a higher output power than other portable audio devices. An accidental volume up may damage your ear and IEMs. For high-sensitivity IEMs, we strongly recommend limiting the device volume.
+Das 5K bietet eine höhere Ausgangsleistung als andere tragbare Audiogeräte. Ein versehentliches Erhöhen der Lautstärke kann Ihr Gehör und Ihre IEMs beschädigen. Für hochempfindliche IEMs empfehlen wir dringend, die Lautstärke des Geräts zu begrenzen.
 
-[IMPORTANT]
+[WICHTIG]
 
-Unlike PC USB and iOS USB(through Camera Kit), Android USB Audio doesn't support Absolute Volume Control. The Android Source Volume scales down the PCM sample as the volume gets lowered. You will need to keep the source volume at maximum for the best sound quality with Android USB Audio.";
+Im Gegensatz zu PC USB und iOS USB (über Camera Kit) unterstützt Android USB Audio keine absolute Lautstärkeregelung. Die Android-Quelllautstärke reduziert das PCM-Sample, wenn die Lautstärke verringert wird. Für die beste Klangqualität mit Android USB Audio müssen Sie die Quelllautstärke auf Maximum halten.";
 
 
 //****************************************
 //********** DAC/AMP MODE
 //****************************************
 "kSTR_HELP_DacAmp" =
-"5K offers two DAC profiles for efficient battery time management.
+"5K bietet zwei DAC-Profile für eine effiziente Verwaltung der Akkulaufzeit.
 
-STANDARD provides the best trade-off for battery time and sound quality, while PERFORMANCE does the best sound quality with lesser battery time.
+STANDARD bietet den besten Kompromiss zwischen Akkulaufzeit und Klangqualität, während PERFORMANCE die beste Klangqualität bei geringerer Akkulaufzeit liefert.
 
-USB connection to the device overrides the current profile and switches it to PERFORMANCE temporarily.
+Bei einer USB-Verbindung zum Gerät wird das aktuelle Profil außer Kraft gesetzt und vorübergehend auf PERFORMANCE umgeschaltet.
 
-NORMAL and HIGH mode set the ES9218p maximum output level as 1VRMS and 2VRMS, respectively. To prevent sudden amplification, the FW is designed to compensate the volume level, upon 1V and 2V HPAMP Gain change. You will experience no difference in loudness when switching the mode to 2VRMS, but you will have the max volume extended by +6dB.
+Die Modi NORMAL und HIGH setzen den maximalen Ausgangspegel des ES9218p auf 1VRMS bzw. 2VRMS. Um eine plötzliche Verstärkung zu vermeiden, ist die FW so konzipiert, dass sie den Lautstärkepegel bei einer Änderung der 1V- und 2V-HPAMP-Verstärkung kompensiert. Sie werden keinen Unterschied in der Lautstärke feststellen, wenn Sie den Modus auf 2VRMS umschalten, aber Sie werden eine um +6dB erhöhte maximale Lautstärke erhalten.
 
-2VRMS, with higher HPAMP gain, produces a little higher background noise and consumes more battery time. Both 1V and 2V mode provides the same sonic performance. There's no reason to use 2VRMS for high sensitivity IEMs or Headphones.
+2VRMS, mit höherer HPAMP-Verstärkung, erzeugt ein etwas höheres Hintergrundrauschen und verkürzt die Akkulaufzeit. Sowohl der 1V- als auch der 2V-Modus bieten die gleiche klangliche Leistung. Es gibt keinen Grund, 2VRMS für hochempfindliche IEMs oder Kopfhörer zu verwenden.
 
-For high sensitivity IEMS, PERFORMANCE + 1VRMS provides the lowest background noise floor. For the best sound quality, you will need to set the source and device volume as we recommend.";
+Für hochempfindliche IEMS bietet PERFORMANCE + 1VRMS den niedrigsten Hintergrundrauschpegel. Um die beste Klangqualität zu erzielen, müssen Sie die Lautstärke der Quelle und des Geräts wie von uns empfohlen einstellen";
 
 //****************************************
 //********** DAC/AMP QxOver
 //****************************************
 "kSTR_HELP_QxOver" =
-"QX-over is an active digital crossover with Qudelix's proprietary DSP technology. Qudelix-5K automatically detects QX-over Earphones, processes the stereo input, and outputs Stereo Low and High band independently to earphones units through 4-channel DAC/AMP.
+"QX-over ist eine aktive digitale Frequenzweiche mit der proprietären DSP-Technologie von Qudelix. Qudelix-5K erkennt automatisch QX-over Kopfhörer, verarbeitet den Stereoeingang und gibt das Low- und High-Band des Stereosignals unabhängig voneinander über einen 4-Kanal-DAC/AMP an die Kopfhörer aus.
 
-You can adjust the Low Band Gain 0 to -6dB and the High Band Gain 0 to +6dB. For real-world sound and music tracks, the filtered High Band signal is very tiny. Thus, we can boost up the High Band signal by 2x.
+Sie können die Verstärkung des Low-Bands von 0 bis -6 dB und die Verstärkung des High-Bands von 0 bis +6 dB einstellen. In der Praxis sind die gefilterten High-Band-Signale sehr schwach. Daher können wir das High-Band-Signal um den Faktor 2 verstärken.
 
-Low Gain=0dB & High Gain=+6dB recommended.
+Low Gain=0dB & High Gain=+6dB werden empfohlen.
 
-*Please note that if you run any frequency sweep measurement, you need to set the High Band gain to 0dB. The clipping would occur at the High Band unless otherwise.
+*Bitte beachten Sie, dass Sie die Verstärkung des High Bands auf 0 dB einstellen müssen, wenn Sie eine Frequenzdurchlaufmessung durchführen. Andernfalls würde die Übersteuerung im High Band auftreten.
 
-Furthermore, you can adjust and compensate the L and R SPL difference with the TRIM settings. Please refer to the below link for more information.";
+Außerdem können Sie die SPL-Differenz zwischen L und R mit den TRIM-Einstellungen anpassen und kompensieren. Weitere Informationen finden Sie unter dem folgenden Link";
 
 //****************************************
 //********** DAC/AMP FILTER
@@ -196,61 +196,61 @@ Furthermore, you can adjust and compensate the L and R SPL difference with the T
 //********** EQUALIZER EQUALIZER
 //****************************************
 "kSTR_ALERT_LoadPreset_Title" =
-"Loading New Preset";
+"Neue Voreinstellung laden";
 
 "kSTR_ALERT_LoadPreset_Msg" =
-"You're about to load new EQ preset. The existing EQ setup will be lost. Are you sure to load the new preset?";
+"Sie sind dabei, eine neue EQ-Voreinstellung zu laden. Die bestehende EQ-Konfiguration wird dabei überschrieben. Sind Sie sicher, dass Sie die neue Voreinstellung laden wollen?";
 
 //****************************************
 //********** EQUALIZER OPTION
 //****************************************
 "kSTR_HELP_EQ" =
-"5K provides 64-bit double-precision 10-band Equalizer.
+"5K bietet einen 64-Bit-10-Band-Equalizer mit doppelter Präzision.
 
-Every setting, including EQ, are kept and preserved in 5K's internal flash memory. 5K reloads the settings at boot-up and continues the same condition as configured before.
+Alle Einstellungen, einschließlich EQ, werden im internen Flash-Speicher des 5K gespeichert und bleiben erhalten. Der 5K lädt die Einstellungen beim Hochfahren neu und setzt den gleichen Zustand wie zuvor konfiguriert fort.
 
-Touching the EQ plot window will show you up the preset menu. There are ten custom presets, and long press on it would save the current EQ setting on it, respectively. Please note that the EQ custom presets are save to 5K's internal flash memory.";
+Wenn Sie das EQ-Plot-Fenster berühren, wird das Voreinstellungsmenü angezeigt. Es gibt zehn benutzerdefinierte Voreinstellungen, und ein langer Druck darauf speichert die aktuelle EQ-Einstellung. Bitte beachten Sie, dass die benutzerdefinierten EQ-Voreinstellungen im internen Flash-Speicher des 5K gespeichert werden";
 
 //****************************************
 //********** QX-FEED (Crossfeed) Help
 //****************************************
 "kSTR_HELP_QXFEED" =
-"QX-feed, Qudelix Crossfeed, provides an emulated speaker listening environment blending L and R through Qudelix's proprietary algorithm. Even while the crossfeed works, it keeps the original characteristic of source tracks, maintaining the frequency response and loudness. Level 0 means no crossfeed(off), and a higher level would mix up L & R more for the narrower and shorter speaker angle and distance, respectively. The max Level 50 means mono, mixing up L & R by half and half.
+"QX-feed, Qudelix Crossfeed, bietet eine emulierte Lautsprecher-Hörumgebung, in der L und R durch den proprietären Algorithmus von Qudelix vermischt werden. Das Crossfeed behält die ursprüngliche Charakteristik der Quellenspuren bei, wobei der Frequenzgang und die Lautstärke erhalten bleiben. Level 0 bedeutet kein Crossfeed (aus), und ein höherer Level würde L & R mehr für den engeren und kürzeren Lautsprecherwinkel bzw. -abstand mischen. Der maximale Pegel 50 bedeutet Mono, d. h. L und R werden halb und halb gemischt.
 ";
 
 //****************************************
 //********** DEVICE FW UPDATE
 //****************************************
 "kSTR_ALERT_OTA_Prepare_SubTitle" =
-"Initiating the new firmware transfer.
-This may take 10~20 sec.
+"Die Übertragung der neuen Firmware wird vorbereitet.
+Dies kann 10-20 Sekunden dauern.
 
-Please keep the 5K close to the smartphone.
+Bitte halten Sie das 5K in der Nähe des Smartphones.
 
-If you're experiencing any continuous failures, please keep the app in the foreground and keep the screen ON until you get the firmware updated completely.
+Wenn es zu ständigen Fehlern kommt, halten Sie bitte die App im Vordergrund und lassen Sie den Bildschirm eingeschaltet, bis die Firmware vollständig aktualisiert wurde.
 
 ";
 
 "kSTR_ALERT_OTA_Prepare_Msg" =
-"Initiating...";
+"Vorbereiten...";
 
 "kSTR_ALERT_OTA_Progress_SubTitle" =
-"Until 5K receives and validates the perfect FW binary, it won't update the current FW.
+Die Firmware wird erst aktualisiert, nachdem 5K eine einwandfreie FW-Binärdatei erhalten und validiert hat.
 
-If failed, please try it again.
+Wenn dies fehlgeschlagen ist, versuchen Sie es bitte erneut.
 
-If you're experiencing any continuous failures, please keep the app in the foreground and keep the screen ON until you get the firmware updated completely.
+Bei anhaltenden Fehlern halten Sie bitte die App im Vordergrund und lassen Sie den Bildschirm eingeschaltet, bis die Firmware vollständig aktualisiert ist.
 
 ";
 
 "kSTR_ALERT_OTA_Rebooting_SubTitle" =
-"Rebooting the device";
+"Gerät wird neu gestartet";
 
 "kSTR_ALERT_OTA_Rebooting_Msg" =
-"Please wait for a moment.";
+"Bitte warten Sie einen Moment.";
 
 "kSTR_ALERT_OTA_Complete_Msg" =
-"The new firmware is successfully updated!\nPlease restart the app.";
+"Die neue Firmware wurde erfolgreich aktualisiert!\nBitte starten Sie die App neu.";
 
 
 //****************************************
@@ -258,61 +258,61 @@ If you're experiencing any continuous failures, please keep the app in the foreg
 //****************************************
 
 // VOLUME (+) Button not available when no audio
-"kSTR_WARNING_1" = "The Volume(+) button is disabled when no audio streaming to prevent sudden and accidental volume change. Use the app slider to adjust the volume while no audio streaming.";
+"kSTR_WARNING_1" = "Die Taste Lautstärke(+) ist deaktiviert, wenn kein Audio-Streaming stattfindet, um eine plötzliche und versehentliche Änderung der Lautstärke zu verhindern. Verwenden Sie den App-Schieberegler, um die Lautstärke anzupassen, wenn kein Audio-Streaming stattfindet.";
 
 // VOLUME PROTECTTION when switching between two source devices
-"kSTR_WARNING_2" = "VOLUME PROTECTION! The output is too louder than the previous level. Adjusting the output level back to the last one.";
+"kSTR_WARNING_2" = "LAUTSTÄRKESCHUTZ! Der Ausgangspegel ist viel lauter als vorher. Stellen Sie den Ausgangspegel wieder auf den letzten Wert ein.";
 
 // APP Disconnection
-"kSTR_WARNING_3" = "The Qudelix-5K is getting connected to another smartphone. Disconnecting the current app connection.";
+"kSTR_WARNING_3" = "Das Qudelix-5K wird mit einem anderen Smartphone verbunden. Die aktuelle App-Verbindung wird getrennt.";
 
 // WARRANTY EXTENSION PROGRAM message
-"kSTR_ALERT_KeyCodeApply_Success" = "The warranty for this device extended successfully.";
-"kSTR_ALERT_KeyCodeApply_Fail" = "Failed to validate the warranty extension code. Please enter the valid code specific for your device.";
+"kSTR_ALERT_KeyCodeApply_Success" = "Die Garantie für dieses Gerät wurde erfolgreich verlängert.";
+"kSTR_ALERT_KeyCodeApply_Fail" = "Der Code für die Garantieverlängerung konnte nicht erkannt werden. Bitte geben Sie den gültigen Code für Ihr Gerät ein.";
 
-"kSTR_WARNING_MIN_MAX_FMT" = "VALUE MIN:%.1f MAX:%.1f";
+"kSTR_WARNING_MIN_MAX_FMT" = "WERT MIN:%.1f MAX:%.1f";
 
 //**********************************************************
 //********** WARRANTY EXTENSION PROGRAM (email body)
 //**********************************************************
 "kSTR_MAIL_WarrantyExtension"  =
-"We provide one year warranty for Qudelix-5K.
+"Wir gewähren ein Jahr Garantie für Qudelix-5K.
 
-The warranty starts at the very first connection with the companion mobile app. 5K will store and hold the start date as of the app connection after unboxing.
+Die Garantie beginnt mit der allerersten Verbindung mit der mobilen Companion-App. 5K speichert und verwahrt das Startdatum ab der Verbindung mit der App nach dem Auspacken.
 
-Plus, we offer additional benefits for users to extend the warranty while encouraging product reviews.
+Außerdem bieten wir zusätzliche Vorteile für Benutzer, um die Garantie zu verlängern und gleichzeitig Produktbewertungen zu fördern.
 
-Write your review and Extend the Warranty.
+Schreiben Sie Ihre Rezension und verlängern Sie die Garantie.
 
-1.Amazon Review (up to 60 days)
-Text Review(30 days) or Photo Review(60 days)
-*A photo with your gears, earphones, headphones, amp...
+1. Amazon-Rezension (bis zu 60 Tage)
+Textrezension (30 Tage) oder Fotorezension (60 Tage)
+*Ein Foto mit Ihren Geräten, Ohrhörern, Kopfhörern, Verstärkern...
 
-(Take the screenshot of your review and attach it here.)
-
-
-2.Community Review (any audiophile communities)
-Text Review(30 days) or Photo Review(60 days)
-*A high-resolution photo with your gears, earphones, headphones, amp...
-
-(Add the link for the review here.)
+(Machen Sie einen Screenshot Ihrer Rezension und fügen Sie ihn hier ein).
 
 
-3.Professional Review (30~120 days)
-Any professional review
-Should include at least more than three high-resolution photos.
+2. Community-Rezensionen (alle audiophilen Communities)
+Textrezension (30 Tage) oder Fotorezension (60 Tage)
+*Ein hochauflösendes Foto mit Ihren Geräten, Kopfhörern, Verstärkern...
 
-(Add the link for the review here.)
+(Fügen Sie hier den Link für die Rezension ein.)
+
+
+3. professionelle Bewertung (30~120 Tage)
+Jede professionelle Bewertung
+Sollte mindestens mehr als drei hochauflösende Fotos enthalten.
+
+(Fügen Sie den Link für die Bewertung hier ein.)
 
 
 
-We'll review your submission in 2~4 business days and reply to you with the extension code. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+Wir werden Ihren Beitrag innerhalb von 2-4 Werktagen prüfen und Ihnen den Verlängerungscode mitteilen. (Wochenenden und Feiertage ausgenommen.) Korea Standard Time (UTC+09:00)
 
-*You SHOULD apply for the extension program no later than 90 days from the warranty start.
+*Sie SOLLTEN die Verlängerung nicht später als 90 Tage nach Beginn der Garantie beantragen.
 
-*We may ask you for your original photos and publish your pictures in our gallery on the homepage.
+*Wir können Sie um Ihre Originalfotos bitten und Ihre Bilder in unserer Galerie auf der Homepage veröffentlichen.
 
-*The extension program doesn't cover the battery time/life.
+*Das Verlängerungsprogramm deckt nicht die Batterielaufzeit/Lebensdauer ab.
 
 ";
 
@@ -320,43 +320,43 @@ We'll review your submission in 2~4 business days and reply to you with the exte
 //********** WARRANTY SERVICE REQUEST (email body)
 //**********************************************************
 "kSTR_MAIL_WarrantyService"  =
-"This email is to initiate the warranty service request for any HW disorder or defect. Please go to DEVICE->TECHNICAL SUPPORT for asking any questions or helps.
+"Mit dieser E-Mail leiten Sie die Garantieanforderung für jegliche HW-Störung oder Defekt ein. Bitte gehen Sie zu GERÄTE->TECHNISCHER SUPPORT, um Fragen zu stellen oder Hilfe zu erhalten.
 
-[IMPORTANT]
-Do Not Uninstall the APP!
-Qudelix mobile app handles every warranty process along with our warranty service system. Please keep the Qudelix mobile application until you get the issue resolved. You may not be able to get the warranty service completed unless otherwise.
+[WICHTIG]
+Deinstallieren Sie die App nicht!
+Qudelix Mobile App wickelt alle Garantieprozesse zusammen mit unserem Garantieservice-System ab. Bitte behalten Sie die Qudelix-Mobilanwendung bei, bis Sie das Problem gelöst haben. Andernfalls kann es sein, dass der Garantieservice nicht abgeschlossen werden kann.
 
-To accelerate the service procedure, please explain the issue in detail as much as you can.
+Um das Serviceverfahren zu beschleunigen, erklären Sie bitte das Problem so detailliert wie möglich.
 
-(Your issue at here)
+(Ihr Problem an dieser Stelle)
 
-Our team will get back to you in 2~4 working days. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)";
+Unser Team wird sich innerhalb von 2-4 Arbeitstagen mit Ihnen in Verbindung setzen. (Wochenenden und Feiertage ausgenommen.) Korea Standard Time (UTC+09:00)";
 
 "kSTR_MAIL_WarrantyClose" =
-"Did you receive a new unit?
-To activate the new unit's warranty, we need to file the case closed.
-If everything is ok, please send us this email to close your case.
+"Haben Sie ein neues Gerät erhalten?
+Um die Garantie für das neue Gerät zu aktivieren, müssen wir den Fall abschließen.
+Wenn alles in Ordnung ist, senden Sie uns bitte diese E-Mail, um Ihren Fall abzuschließen.
 
-It may take 2~4 business days to update the warranty system for your new device. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+Es kann 2-4 Werktage dauern, um das Garantiesystem für Ihr neues Gerät zu aktualisieren. (Wochenenden und Feiertage ausgenommen.) Korea Standard Time (UTC+09:00)
 ";
 
 //**********************************************************
 //********** WARRANTY SERVICE STATUS (email body)
 //**********************************************************
 "kSTR_HELP_WarrantyStatus" =
-"We're processing your warranty service request now.
-Our team will get back to you in 2~4 working days. (excluding weekends and holidays.) Korea Standard Time (UTC+09:00)
+"Wir bearbeiten gerade Ihre Anfrage für den Garantieservice.
+Unser Team wird sich innerhalb von 2-4 Arbeitstagen bei Ihnen melden. (Wochenenden und Feiertage ausgenommen.) Korea Standard Time (UTC+09:00)
 
-[IMPORTANT]
-Do Not Uninstall the APP!
-Qudelix mobile app handles every warranty process along with our warranty service system. Please keep the Qudelix mobile application until you get the issue resolved. You may not be able to get the warranty service completed unless otherwise.";
+[WICHTIG]
+Deinstallieren Sie die App nicht!
+Qudelix Mobile App wickelt alle Garantieprozesse zusammen mit unserem Garantieservice-System ab. Bitte behalten Sie die Qudelix-Mobilanwendung, bis Sie das Problem gelöst haben. Andernfalls kann es sein, dass Sie den Garantieservice nicht in Anspruch nehmen können.";
 
 "kSTR_HELP_WarrantyClose" =
-"The connected device is no longer available for the warranty claim. The device has been claimed as defected or damaged. We replaced the device with a new unit or refunded.";
+"Das angeschlossene Gerät ist für den Garantieanspruch nicht mehr verfügbar. Das Gerät wurde als defekt oder beschädigt reklamiert. Wir haben das Gerät durch ein neues Gerät ersetzt oder den Kaufpreis erstattet.";
 
 //****************************************
 //********** APP STORE UPDATE
 //****************************************
-"kSTR_ALERT_AppStoreUpdate_Title" = "Updates Available";
-"kSTR_ALERT_AppStoreUpdate_Msg" = "The app v%@ is available.\nDo you want to install the updates now?";
+"kSTR_ALERT_AppStoreUpdate_Title" = "Aktualisierungen verfügbar";
+"kSTR_ALERT_AppStoreUpdate_Msg" = "Die App v%@ ist verfügbar.\nMöchten Sie jetzt aktualisieren?";
 
